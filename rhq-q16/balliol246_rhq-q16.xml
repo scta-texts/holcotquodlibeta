@@ -57,19 +57,19 @@
       <div xml:id="rhq-q16">
         <head>Quaestio 16</head>
         <head type="questin-title">Utrum sapientia in creata obliguando viatorem ad aliquod antecedens obliget eum eoipso ad quodlibet suum consequens</head>
-        <p>
+        <p xml:id="rhq-q16-d1e3853">
           <lb ed="#B"/>Utrum sapientia in creata olbiguan<lb ed="#B"/>do 
           viatorem ad aliquod
           <cb ed="#B" n="b"/>
           <lb ed="#B"/>antecedens obliget  eum in ipso ad quodlibet suum consequens
         </p>
-        <p>
+        <p xml:id="rhq-q16-d1e3864">
           <lb ed="#B"/>quod non arguitur sic quia illa consequentia est bona peccator 
           <lb ed="#B"/>disponit se ad habendum gratiam igitur caret 
           <lb ed="#B"/>gratia et quilibet peccator tenetur ad antecedens non 
           <lb ed="#B"/>ad consequens igitur
         </p>
-        <p>
+        <p xml:id="rhq-q16-d1e3877">
           ad oppositum arguitur sic deus obligat 
           <lb ed="#B"/>maiorem ad antecedens igitur obliguat eum 
           <lb ed="#B"/>ad faciendum totaliter <unclear>sicut</unclear> per antecedens denotatur 
@@ -78,31 +78,37 @@
           <lb ed="#B"/>obliguatur ad antecedens obliguatur 
           <lb ed="#B"/>ad consequens
         </p>
-        <p>
+        <p xml:id="rhq-q16-d1e3898">
           <pc type="virgula">//</pc> dicitur quod non dicendo cum istum terminum 
           <lb ed="#B"/>antecedens quia potest accipi distincte et large 
           <lb ed="#B"/>stricte per una propositione quae sic <unclear>intellecta</unclear> 
           <lb ed="#B"/>et vera aeque sequitur formaliter unam 
           <lb ed="#B"/>aliam esse veram quae dicitur consequens si sic 
-          <lb ed="#B"/><unclear>intellecta</unclear> ratione istius positionis hoc scita unum 
+          <lb ed="#B"/><unclear>intellecta</unclear>
+        </p>
+        <p xml:id="rhq-q16-d1e3919">
+          ratione istius positionis hoc scita unum 
           <lb ed="#B"/>peccatum mortale pena alterius peccata mortalis 
           <lb ed="#B"/><unclear>tunc</unclear> sequitur sortes omittit <c>a</c> igitur non erit 
           <lb ed="#B"/>beatus et deus obligat eum ad <c>a</c> 
           <lb ed="#B"/>intercedens et non ad consequens large ac<lb ed="#B"/>cipitur 
           per significato talis propositionis
         </p>
-        <p>
+        <p xml:id="rhq-q16-d1e3947">
           contra istam 
           <lb ed="#B"/>distinctione arguitur sic ita bene est propositio facit 
           <lb ed="#B"/>consequens sicut propositio vera unde in silligismo ex oppositis est 
           <lb ed="#B"/>antecedens inpossibilis quia copulativa facta ex contradic<lb ed="#B"/>toriis
         </p>
-        <p>
+        <p xml:id="rhq-q16-d1e3960">
           <pc type="virgula">//</pc>Item ex falsis <unclear>verum</unclear> ex veris multis 
-          <lb ed="#B"/>nisi verum <ref>primo <title>priorum</title></ref> in omni consequentia <unclear>form??</unclear> 
+          <lb ed="#B"/>nisi verum <ref>primo <title>priorum</title></ref>
+        </p>
+        <p xml:id="rhq-q16-d1e3967">
+          in omni consequentia <unclear>form??</unclear> 
           <lb ed="#B"/>ex opposito consequentis sequitur oppositum antecedentis <!-- this is a common phrase, possible quotation -->
         </p>
-        <p>
+        <p xml:id="rhq-q16-d1e3976">
           <pc type="virgula">//</pc> Item in probatione 
           <lb ed="#B"/>quaero quando propositio est antecedens non ante prolationem nec 
           <lb ed="#B"/>post quia tunc non est nec in prolatione quia tunc 
@@ -110,31 +116,36 @@
           <lb ed="#B"/>pono quod nulla propositione existentis incipiat sortes 
           <lb ed="#B"/>loqui
         </p>
-        <p>
+        <p xml:id="rhq-q16-idqdcs">
           <pc type="virgula">//</pc>Item dicit quod ad hoc quod propositio sit 
           <lb ed="#B"/>vera requiritur quod sic in intellecta consequentia tunc 
           <lb ed="#B"/>nullo homine vigilante nulla <unclear>oportet</unclear> propositio vera de <unclear>contra<lb ed="#B"/>facta</unclear> 
           <unclear>sa ip?taur</unclear>
         </p>
-        <p>
+        <p xml:id="rhq-q16-d1e3997">
           <pc type="virgula">/</pc> Item dicit quod ad hoc quod sit 
           <lb ed="#B"/>antecedens <unclear>requiritur</unclear> quod ex illo sequatur formaliter 
-          <lb ed="#B"/>unam aliam esse veram consequentia tunc <unclear>inqua</unclear> 
+          <lb ed="#B"/>unam aliam esse veram
+        </p> 
+        <p xml:id="rhq-q16-d1e4006">
+          consequentia tunc <unclear>inqua</unclear> 
           <lb ed="#B"/><unclear>negnans</unclear> quia vel consequens sequebat formali 
           <lb ed="#B"/>ex antecedente et tunc materiae <unclear>nega?et</unclear> vel non 
           <lb ed="#B"/>et tunc nullum fuit antecedens <unclear>gratia</unclear> nec consequetia 
           <lb ed="#B"/>et sic nulla consequentia neganda
         </p>
-        <p>
-          <pc type="virgula">//</pc>Item dicit quod <unclear>sa?it?te</unclear> 
+        <p xml:id="rhq-q16-d1e4021">
+          <pc type="virgula">//</pc>Item dicit quod <unclear>stricte</unclear> 
           <lb ed="#B"/>loquendo accidentia antecedens pro una propositione convenit nulla est ista 
-          <lb ed="#B"/>quia non una populus quam alia contra rationem 
+          <lb ed="#B"/>quia non una populus quam alia</p> 
+        <p xml:id="rhq-q16-d1e4034">
+          contra rationem 
           <lb ed="#B"/>positionis quoniam dicit quod deus obliguat 
           <lb ed="#B"/>sortem aliud arguitur sic quia si sic <unclear></unclear> tenetur 
           <lb ed="#B"/>facere <c>a</c> gratia sortes faciendo <c>a</c> non peccat 
           <lb ed="#B"/>gratia <c>a</c> non est <unclear>peccatum</unclear>
         </p>
-        <p>
+        <p xml:id="rhq-q16-d1e4063">
           <pc type="virgula">//</pc>Item ista consequentia non 
           <lb ed="#B"/>valet <name>sortes</name> commitit <c>a</c> gratia non erit beatus quia 
           <lb ed="#B"/>sicut dicit <name ref="#Augustine">augustinus</name> <name>Petrus</name> negavit christum propter illam
@@ -142,7 +153,10 @@
           <cb ed="#B" n="a"/>
           <lb ed="#B"/>Superbam praesumptionem qua dixit et <quote ana="#mt26_33"> <!-- also mc14_29 -->si omnis 
           <lb ed="#B"/>scandalizati</quote> etc igitur <!-- check all this gratias, change to "igitur" what looks like an a is the "tur" ending --> bii fuit peccatum pena 
-          <lb ed="#B"/>peccati et tum penus est beatus principali arguitur sic sit 
+          <lb ed="#B"/>peccati et tum penus est beatus
+        </p> 
+        <p xml:id="rhq-q16-d1e4102">
+          principali arguitur sic sit 
           <lb ed="#B"/><c>a</c> tale antecedens et <c>b</c> tale consequens tunc <name>Sortes</name> tenetur 
           <lb ed="#B"/>ad <c>a</c> non ad <c>b</c> igitur potest licite omittere <c>b</c> et 
           <lb ed="#B"/>sequitur omittit <c>b</c> igitur omittit <c>a</c> gratia potest licite 
@@ -153,33 +167,41 @@
           <lb ed="#B"/>sicut per consequens de notatur omnino facere sicut 
           <lb ed="#B"/>per antecedens denotatur 
         </p>
-        <p>
+        <p xml:id="rhq-q16-d1e4162">
           <pc type="virgula">//</pc>Item deus obliguat via<lb ed="#B"/>torem 
           ad aliquid quod non vult ab eo fieri voluntate 
           <lb ed="#B"/>bene placiti quia prae?t <name ref="#Abraham">abrahae</name> ut immolare filium 
           <lb ed="#B"/>suum et tamen noluit hoc fieri igitur pari ratione 
           <lb ed="#B"/>obliguando ad antecedens etc
         </p>
-        <p>
+        <p xml:id="rhq-q16-d1e4180">
           Item <name>Sortes</name> de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> 
           <lb ed="#B"/>salutis facere aliquid ad quod non tenetur de neccessitate 
           <lb ed="#B"/>Salutis igitur est irrationabliitas obligatus antecedens patet 
           <lb ed="#B"/>quia peccator conteretur <choice><orig>alico</orig><reg>aliquo</reg></choice> gradu contractionis ad 
           <lb ed="#B"/>qui non tenetur sed de neccessitate salutis tenetur 
           <lb ed="#B"/>ad contritionem igitur conclusio maior patet quia quocumque 
-          <lb ed="#B"/>gradu dato remissio et gradus sufficit 
-          <lb ed="#B"/>sed dicitur negando quia est dare it amodicam 
-          <lb ed="#B"/>contritionem qua minor non <del rend="erasure">scilicet</del> <choice><sic>suficit</sic><corr>sufficit</corr></choice> consequentia 
+          <lb ed="#B"/>gradu dato remissio et gradus sufficit
+        </p>
+        <p xml:id="rhq-q16-d1e4220">
+          <lb ed="#B"/>sed dicitur negando quia est dare ita modicam 
+          <lb ed="#B"/>contritionem qua minor non <del rend="erasure">scilicet</del> <choice><sic>suficit</sic><corr>sufficit</corr></choice>
+        </p> 
+        <p xml:id="rhq-q16-d1e4236">
+          <unclear>contra</unclear> 
           <lb ed="#B"/>vel illa est successiva vel instantea si primum tunc pars 
           <lb ed="#B"/>illius format minor moriatur gratia immediatae 
           <lb ed="#B"/>temporis tunc salvabitur quia in quacumque per hominem 
           <lb ed="#B"/>genuit peccator <unclear>10o quaestione si instantena</unclear> igitur sanctas 
           <lb ed="#B"/>in mortali per tempus haberet in fictas omissus et 
           <lb ed="#B"/>mortales quarum quaelibet esset vel maior quocumque 
-          <lb ed="#B"/>peccato dato Similiter verus propositione sine deliberatione 
+          <lb ed="#B"/>peccato dato
+        </p> 
+        <p xml:id="rhq-q16-d1e4267">
+          Similiter verus propositione sine deliberatione 
           <lb ed="#B"/><unclear>con?a?</unclear> quia nec aliquam <unclear>iuncu?</unclear> elicere
         </p>
-        <p>
+        <p xml:id="rhq-q16-d1e4281">
           <pc type="virgula">//</pc>Item 
           <lb ed="#B"/>illa contritio foret actus inperfectius et <unclear>temeret</unclear> 
           <lb ed="#B"/>sibi debetur maius primum quam cuique bono 

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 16 [London 10 C VI Transcription]</title>
+        <author ref="#Holcot">Holcot</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 16 [London 10 C VI Transcription]</title>
+          <date when="2017-11-07">November 07, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="R" n="lon10c6">London 10 C VI</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-11-07" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#R" n="152-r"/><cb ed="#R" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rhq-q16">
+        <head>Quaestio 16</head>
+        <head type="question-title">Utrum sapientia in creata obliguando viatorem ad aliquod antecedens obliget eum eoipso ad quodlibet suum consequens</head>
+        <p xml:id="rhq-q16-d1e3853">
+          <lb ed="#R"/>Utrum obligans hominem ad aliquod 
+          <lb ed="#R"/>antecedens obliget ipso facto ad consequens 
+        </p>
+        <p xml:id="rhq-q16-d1e3864">
+          <lb ed="#R"/>quod non quia ista consequentia est bona pec<lb ed="#R"/>cator 
+          dicitur disponit ad habendum gratiam igitur 
+          <lb ed="#R"/>habet quilibet obligatur ad antecedens non ad 
+          <lb ed="#R"/>antecedes igitur etc
+        </p>
+        <p xml:id="rhq-q16-d1e3877">
+          <pc ana="#pilcrow"/>ad oppositum deus obli<lb ed="#R"/>get 
+          aliquem ad ad antecedens <del rend="vacat">non ad consequens igitur 
+          <lb ed="#R"/>et etc</del> igitur obligat eum ad faciendum tota<lb ed="#R"/>liter 
+          sicut per antecedens denotatur <choice><orig>set</orig><reg>sed</reg></choice> per quod<lb ed="#R"/>libet 
+          antecedens denotatur per ista sicut per suum 
+          <lb ed="#R"/>consequens denotatur igitur etc
+        </p>
+        <p xml:id="rhq-q16-d1e3919">
+          ad quaestionem 
+          <lb ed="#R"/>dico quod non probatur quia fit ad unum morta<lb ed="#R"/>le 
+          peccatum sic quod cum hoc sit pena pec<lb ed="#R"/>cati 
+          mortalis et cum hoc pono quod <unclear>s</unclear> commis<lb ed="#R"/>so 
+          illo peccato moriatur tunc sic consequitur 
+          <lb ed="#R"/><unclear>b</unclear> committit <c>a</c> igitur non erit beatus et 
+          <lb ed="#R"/>tamen non sequitur deus obligat eum ad 
+          <lb ed="#R"/>antecedens igitur etiam ad consequens <choice><orig>set</orig><reg>sed</reg></choice> consequentia istud 
+          <lb ed="#R"/>videtur quod non obligatur ad antecedens quia sequitur 
+          <lb ed="#R"/>deus obligat <c>b</c> ad <c>a</c> igitur <c>b</c> tenetur 
+          <lb ed="#R"/><unclear>false</unclear> <c>a</c> igitur faciendo <c>a</c> non peccat 
+          <cb ed="#R" n="b"/>
+          <lb ed="#R"/>igitur <c>a</c> non est peccatum 
+        </p>
+        <p xml:id="rhq-q16-d1e4102">
+          Item sit a tale antecedens 
+          <lb ed="#R"/><c>b</c> consequens et teneatur <c>b</c> ad <add place="above-line"><c>a</c></add> et non ad <c>b</c> 
+          <lb ed="#R"/>tunc sit <c>b</c> non <unclear>tenet</unclear> ad <c>b</c> igitur potest licite 
+          <lb ed="#R"/>omittere <c>b</c> et sequitur omittit <c>b</c> igitur di<lb ed="#R"/>mittit 
+          <c>a</c> probatur quia sequitur non est ita sicut 
+          <lb ed="#R"/>per consequens denotatur igitur non est illa sicut per 
+          <lb ed="#R"/>antecedens denotatur et etc simpliciter patet in<lb ed="#R"/>ductive 
+          sequitur vado ad ecclesiam igitur 
+          <lb ed="#R"/>moneor ad ecclesiam et planum est si omi<lb ed="#R"/>to 
+          consequens omitto antecedens igitur
+        </p>
+        <p xml:id="rhq-q16-d1e4162">
+          Item sequitur
+          <lb ed="#R"/><unclear>s?u?go?</unclear> ad <unclear>mat?tivas</unclear> igitur moneo me 
+          <lb ed="#R"/>ad <unclear>matictivas</unclear> et tamen non et etc 
+        </p>
+        <p xml:id="rhq-q16-d1e4180">
+          Item <c>b</c>
+          <lb ed="#R"/>de necessitate salutis faciet aliquid ad quod non 
+          <lb ed="#R"/>tenetur de necessitate salutis <c>b</c> <c>b</c> peccator 
+          <lb ed="#R"/>vadit irratoinaliter obligatus probatur antecedens nam 
+          <lb ed="#R"/>si <c>b</c> conteretur aliquo gradu contradictio<lb ed="#R"/>nis 
+          ad quem non fuit obligatus quia quocum<lb ed="#R"/>que 
+          gradu dato minor sufficeret igitur et 
+          <lb ed="#R"/>etc
+        </p>
+        <p xml:id="rhq-q16-d1e4220">
+          Si dicatur quod qualiter contritione minor non 
+          <lb ed="#R"/>sufficeret contra aut est successiva aut <unclear>obiecta</unclear> 
+          <lb ed="#R"/>non primum quia tunc pars foret minor et si 
+          <lb ed="#R"/><c>b</c> moriator tunc salvabitur si alia igitur 
+          <lb ed="#R"/><unclear>stans</unclear> pro tempore in peccato mortali haberet 
+          <lb ed="#R"/><unclear>is</unclear> omissiones et aequales vel saltem 
+          <lb ed="#R"/>quarum <unclear>qualiter</unclear> esset maior quocumque peccato da<lb ed="#R"/>to 
+        </p>
+        <p xml:id="rhq-q16-d1e4267">
+          <pc ana="#pilcrow"/>Item nullus potest sine deliberatione 
+          <lb ed="#R"/>conteri quia nec aliquem actum veritatis habere
+        </p>
+        <p xml:id="rhq-q16-d1e4281">
+          Item 
+          <lb ed="#R"/>ista minima contritio foret accidens inperfectissimus 
+          <lb ed="#R"/>et tamen sibi deberetur maius primum quocumque 
+          <lb ed="#R"/>bono operi sequenti in eodem igitur non 
+          <lb ed="#R"/>potest dici <unclear>instantenea</unclear>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
