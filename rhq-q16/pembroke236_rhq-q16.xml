@@ -115,7 +115,7 @@
           <lb ed="#P"/>hoc quod propositio sit vera requiritur quod sit intellecta
         </p>
         <p xml:id="rhq-q16-ctntss">
-          <lb ed="#P"/><pc ana="#pilcrow"/>contra tunc nullo homine vigilente nulla esset propositio 
+          <lb ed="#P"/><pc ana="#pilcrow"/>contra tunc nullo homine vigilante nulla esset propositio 
           <lb ed="#P"/>vera de tota sacra scriptura
         </p>
         <p xml:id="rhq-q16-d1e3997">
@@ -146,7 +146,7 @@
           <pc ana="#pilcrow"/>Item consequentia illa 
           <lb ed="#P"/>non valet <name>sortes</name> committit <c>a</c> ergo <name>sortes</name> non erit 
           <lb ed="#P"/>beatus quia sicut dicit <name ref="#Augustine">augustinus</name> <name>petrus</name> negavit 
-          <lb ed="#P"/>christum propter illam <choice><sic>superbam</sic><corr>superbiam</corr></choice> praesumptionem qua dixit 
+          <lb ed="#P"/>christum propter illam <sic>superbam</sic> praesumptionem qua dixit 
           <lb ed="#P"/>et <quote xml:id="rhq-q16-Qd1e4088" ana="#mt26_33"> <!-- also mc14_29 -->si omnis</quote> etc ergo ibi fuit peccatum pena 
           <lb ed="#P"/>peccati <pc ana="#punctus"/> et tamen <name>petrus</name> est beatus ergo etc
         </p>
