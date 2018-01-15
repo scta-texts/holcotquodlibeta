@@ -56,7 +56,7 @@
     <body>
       <div xml:id="rhq-q16">
         <head>Quaestio 16</head>
-        <head type="questin-title">Utrum sapientia in creata obliguando viatorem ad aliquod antecedens obliget eum eoipso ad quodlibet suum consequens</head>
+        <head type="question-title">Utrum sapientia increata obligando viatorem ad aliquod antecedens, obliget eum eoipso ad quodlibet suum consequens</head>
         <p xml:id="rhq-q16-d1e3853">
           <lb ed="#B"/>Utrum sapientia in creata obliguan<lb ed="#B"/>do 
           viatorem ad aliquod
@@ -118,7 +118,10 @@
         </p>
         <p xml:id="rhq-q16-idqdcs">
           <pc type="virgula">//</pc>Item dicit quod ad hoc quod propositio sit 
-          <lb ed="#B"/>vera requiritur quod sic in intellecta consequentia tunc 
+          <lb ed="#B"/>vera requiritur quod sic in intellecta
+        </p>
+        <p xml:id="rhq-q16-ctntss">
+          consequentia tunc 
           <lb ed="#B"/>nullo homine vigilante nulla <unclear>oportet</unclear> propositio vera de <unclear>contra<lb ed="#B"/>facta</unclear> 
           <unclear>sa ip?taur</unclear>
         </p>

@@ -50,10 +50,11 @@
     <body>
       <div xml:id="rhq-q16">
         <head xml:id="rhq-q16-Hd1e3847">Quaestio 16</head>
-        <head xml:id="rhq-q16-Hd1e3850" type="question-title">Utrum sapientia in creata obliguando viatorem ad aliquod antecedens obliget eum eoipso ad quodlibet suum consequens</head>
+        <head xml:id="rhq-q16-Hd1e3850" type="question-title">Utrum sapientia increata obligando viatorem ad aliquod antecedens, 
+          obliget eum eoipso ad quodlibet suum consequens</head>
         <p xml:id="rhq-q16-d1e3853">
           <lb ed="#P"/>Utrum sapientia in creata 
-          <lb ed="#P"/>obliguando viatorem ad aliquod
+          <lb ed="#P"/>obligando viatorem ad aliquod
           <lb ed="#P"/>antecedens obliget eum eoipso 
           <lb ed="#P"/>ad quodlibet suum consequens
         </p>
@@ -66,32 +67,32 @@
         </p>
         <p xml:id="rhq-q16-d1e3877">
           <lb ed="#P"/><pc ana="#pilcrow"/>ad oppositum deus obligat viatorem ad antecedens 
-          ergo obliguat eum ad faciendum totaliter sicut 
-          <lb ed="#P"/>per antecedens denotatur <unclear>valet</unclear> per quodlibet antecedens de<lb ed="#P"/>notatur 
+          ergo obligat eum ad faciendum totaliter sicut 
+          <lb ed="#P"/>per antecedens denotatur <choice><orig>set</orig><reg>sed</reg></choice> per quodlibet antecedens de<lb ed="#P"/>notatur 
           quod ita sit sicut per quodlibet suum consequens 
-          <lb ed="#P"/>denotatur ergo quicumque obliguatur ad antecedens obliguatur 
+          <lb ed="#P"/>denotatur ergo quicumque obligatur ad antecedens obligatur 
           <lb ed="#P"/>ad consequens <pc ana="#punctus"/> 
         </p>
         <p xml:id="rhq-q16-d1e3898">
           <pc ana="#pilcrow"/>dicitur quod non distinguendo tamen istum 
           <lb ed="#P"/>terminum antecedens quia potest accipi stricte et 
           <cb ed="#P" n="b"/>
-          <lb ed="#P"/>large stricte per una propositione quae sit 
-          <lb ed="#P"/><unclear>intellecta</unclear> et vera ex qua sequitur formaliter unam 
-          <lb ed="#P"/>aliam esse veram quae dicitur consequens si sic <unclear>intellecta</unclear>
+          <lb ed="#P"/>large stricte pro una propositione quae sit 
+          <lb ed="#P"/>intellecta et vera ex qua sequitur formaliter unam 
+          <lb ed="#P"/>aliam esse veram <unclear>quae dicitur <!-- gelber as "quaedem" --></unclear> consequens si sit intellecta
         </p>
         <p xml:id="rhq-q16-d1e3919">
-          <lb ed="#P"/><pc ana="#pilcrow"/>Ratione positionis est haec sit <c>a</c> unum peccatum mortale 
-          <lb ed="#P"/>pena alterius peccata mortalis tunc sequitur sortes 
+          <lb ed="#P"/><pc ana="#pilcrow"/>Ratio positionis est haec sit <c>a</c> unum peccatum mortale 
+          <lb ed="#P"/>pena alterius peccati mortalis tunc sequitur sortes 
           <lb ed="#P"/>committit <c>a</c> ergo sortes non erit beatus et deus ob<lb ed="#P"/>ligat 
-          eum ad <c>a</c> antecedens et non ad consequens <pc ana="#pilcrow"/>lar<lb ed="#P"/>ge 
-          accipitur per significato talis propositionis <pc ana="#punctus"/>
+          eum ad antecedens et non ad consequens <pc ana="#pilcrow"/>lar<lb ed="#P"/>ge 
+          accipitur pro significato talis propositionis <pc ana="#punctus"/>
         </p>
         <p xml:id="rhq-q16-d1e3947">
           <pc ana="#pilcrow"/>contra 
           <lb ed="#P"/>distinctionem ita bene est propositio falsa antecedens sicut  
-          <lb ed="#P"/>propositio vera unde in silligismo ex oppositis est antecedens 
-          <lb ed="#P"/>impossibilis quia copulativa facta ex contradictoriis <pc ana="#punctus"/>
+          <lb ed="#P"/>propositio vera unde in sillogismo ex oppositis est antecedens 
+          <lb ed="#P"/>impossibile quia copulativa facta ex contradictoriis <pc ana="#punctus"/>
         </p>
         <p xml:id="rhq-q16-d1e3960">
           <pc ana="#pilcrow"/>Item 
@@ -105,40 +106,47 @@
           <pc ana="#pilcrow"/>Item 
           <lb ed="#P"/>in prolatione quaero quando est propositio antecedens non 
           <lb ed="#P"/>ante prolationem nec post <pc ana="#punctus"/> quia tunc non est nec in 
-          <lb ed="#P"/>prolatione quia tunc non sequitur unam aliam fo<lb ed="#P"/>rte 
+          <lb ed="#P"/>prolatione quia tunc non sequitur unam aliam fo<lb ed="#P"/>re 
           veram quia pono quod nulla alia propositione existen<lb ed="#P"/>te 
           incipiat sortes loqui <pc ana="#punctus"/>
         </p>
-        <!-- <p xml:id="rhq-q16-idqdcs"/> omitted -->
+        <p xml:id="rhq-q16-idqdcs">
+          <pc ana="#pilcrow"/>Item dicis quod ad 
+          <lb ed="#P"/>hoc quod propositio sit vera requiritur quod sit intellecta
+        </p>
+        <p xml:id="rhq-q16-ctntss">
+          <lb ed="#P"/><pc ana="#pilcrow"/>contra tunc nullo homine vigilente nulla esset propositio 
+          <lb ed="#P"/>vera de tota sacra scriptura
+        </p>
         <p xml:id="rhq-q16-d1e3997">
           <pc ana="#pilcrow"/>Item dicis quod 
           <lb ed="#P"/>sit antecedens requiritur quod ex illo sequatur formaliter 
           <lb ed="#P"/>unam aliam esse veram
         </p>
         <p xml:id="rhq-q16-d1e4006">
-          <pc ana="#pilcrow"/>contra tunc unquam ne<lb ed="#P"/>gasti 
+          <pc ana="#pilcrow"/>contra tunc nunquam ne<lb ed="#P"/>gasti 
           bene consequentiam quia vel consequens sequebatur 
-          <lb ed="#P"/><unclear>forter</unclear> ex antecedente et tunc male vel non et 
-          <lb ed="#P"/>tunc nullum fuit antecedens et ergo nec consequentia et 
+          <lb ed="#P"/>formaliter ex antecedente et tunc male vel non et 
+          <lb ed="#P"/>tunc nullum fuit antecedens et igitur nec consequentia et 
           <lb ed="#P"/>sic nulla consequentia est neganda
         </p>
         <p xml:id="rhq-q16-d1e4021">
           <pc ana="#pilcrow"/>Item dicis quod 
           <lb ed="#P"/>stricte loquendo accipitur antecedens pro una propositio<lb ed="#P"/>ne 
-          contra nulla est illa quia non una plusquam 
+          <unclear>consequentia <!-- gelber has consequentia, could also be "contra --></unclear> nulla est illa quia non una plusquam 
           <lb ed="#P"/>alia <pc ana="#punctus"/>
         </p>
         <p xml:id="rhq-q16-d1e4034">
           <pc ana="#pilcrow"/>Contra rationem positionis quando dicit 
-          <lb ed="#P"/>deus obliguat sortem ad <c>a</c> quia si sic sortes tenetur 
+          <lb ed="#P"/>deus obligat sortem ad <c>a</c> quia si <unclear>sic <!-- gelber has sit --></unclear> sortes <unclear>tenetur <!-- gelber omitted this --></unclear> 
           <lb ed="#P"/>facere <c>a</c> ergo sortes faciendo <c>a</c> non peccat 
-          <lb ed="#P"/>ergo <c>a</c> non est <unclear>peccatum</unclear> <pc ana="#punctus"/>
+          <lb ed="#P"/>ergo <c>a</c> non est peccatum <pc ana="#punctus"/>
         </p>
         <p xml:id="rhq-q16-d1e4063">
           <pc ana="#pilcrow"/>Item consequentia illa 
-          <lb ed="#P"/>non valet <name>sortes</name> committit <c>a</c> ergo non erit 
+          <lb ed="#P"/>non valet <name>sortes</name> committit <c>a</c> ergo <name>sortes</name> non erit 
           <lb ed="#P"/>beatus quia sicut dicit <name ref="#Augustine">augustinus</name> <name>petrus</name> negavit 
-          <lb ed="#P"/>christum propter illam superbam praesumptionem qua dixit 
+          <lb ed="#P"/>christum propter illam <choice><sic>superbam</sic><corr>superbiam</corr></choice> praesumptionem qua dixit 
           <lb ed="#P"/>et <quote xml:id="rhq-q16-Qd1e4088" ana="#mt26_33"> <!-- also mc14_29 -->si omnis</quote> etc ergo ibi fuit peccatum pena 
           <lb ed="#P"/>peccati <pc ana="#punctus"/> et tamen <name>petrus</name> est beatus ergo etc
         </p>
@@ -146,57 +154,57 @@
           <pc ana="#pilcrow"/>Item 
           <lb ed="#P"/>principaliter arguitur sic sit <c>a</c> tale antecedens et <c>b</c> tale consequens 
           <lb ed="#P"/>tunc <name>sortes</name> tenetur ad <c>a</c> non ad <c>b</c> ergo potest 
-          <lb ed="#P"/>licite omittere <c>b</c> et sequitur omittit <c>b</c> ergo o
-          <lb ed="#P"/>mittit <c>a</c> gratia potest licite omittere <c>a</c> 
-          <lb ed="#P"/>consequens contra <unclear>causam</unclear> consequentia probatur quia sequitur non est ita 
-          <lb ed="#P"/>ut per consequens denotatur igitur non est ita ut per 
-          <lb ed="#P"/>antecedens denotatur quia si non <unclear>moneor</unclear> ad ecclesi<lb ed="#P"/>am 
+          <lb ed="#P"/>licite omittere <c>b</c> et sequitur omittit <c>b</c> ergo 
+          <lb ed="#P"/>omittit <c>a</c> ergo potest licite omittere <c>a</c> 
+          <lb ed="#P"/>consequens contra casum consequentia probatur quia sequitur non est ita 
+          <lb ed="#P"/>ut per consequens denotatur ergo non est ita ut per 
+          <lb ed="#P"/>antecedens denotatur quia si non moveor ad ecclesi<lb ed="#P"/>am 
           non vado ad ecclesiam ergo si omit<lb ed="#P"/>to 
-          facere sicut per consequens de notatur omitto etc
+          facere sicut per consequens denotatur omitto etc
         </p>
         <p xml:id="rhq-q16-d1e4162">
-          <lb ed="#P"/><pc ana="#pilcrow"/>Item deus obliguat viatorem ad aliquid quod 
-          <lb ed="#P"/>non vult ab eo fieri voluntate bene placiti quia 
+          <lb ed="#P"/><pc ana="#pilcrow"/>Item deus obligat viatorem ad aliquid quod 
+          <lb ed="#P"/>non vult ab eo fieri <unclear>volente</unclear> bene placiti quia 
           <lb ed="#P"/>praecepit <name ref="#Abraham">abrahae</name> ut immolaret filium 
           <lb ed="#P"/>suum et tamen noluit hoc fieri ergo pari ratio<lb ed="#P"/>ne 
-          obliguando ad antecedens etc
+          obligando ad antecedens etc
         </p>
         <p xml:id="rhq-q16-d1e4180">
           <pc ana="#pilcrow"/>Item <name>sortes</name> de 
-          <lb ed="#P"/><choice><orig>neccessitate</orig><reg>necessitate</reg></choice> salutis facit aliquid ad quod non tenetur 
-          <lb ed="#P"/>de neccessitate salutis ergo est irrationabliitas obligatus 
-          <lb ed="#P"/>quia peccator conteretur <sic>conteretur</sic> aliquo gra<lb ed="#P"/>du 
-          contractionis ad quem non tenetur <choice><orig>sec</orig><reg>sed</reg></choice> de 
-          <lb ed="#P"/>neccessitate salutis tenetur ad contritionem ergo 
+          <lb ed="#P"/><choice><orig>neccessitate</orig><reg>necessitate</reg></choice> salutis facit aliquid quod non tenetur 
+          <lb ed="#P"/>de neccessitate salutis ergo est irrationaliter obligatus 
+          <lb ed="#P"/>quia peccator conteretur <sic>conteretur</sic> aliquo gra<lb ed="#P"/>du <!-- gelber has gradum, but that seems wrong --> 
+          contritionis ad quem non tenetur <choice><orig>set</orig><reg>sed</reg></choice> de 
+          <lb ed="#P"/><choice><orig>neccessitate</orig><reg>necessitate</reg></choice> salutis tenetur ad contritionem ergo 
           <lb ed="#P"/>maior patet quia quocumque dato remissior gra<lb ed="#P"/>dus 
           sufficit <pc ana="#punctus"/>
         </p>
         <p xml:id="rhq-q16-d1e4220">
-          <pc ana="#pilcrow"/><choice><orig>Sec</orig><reg>Sed</reg></choice> dicitur forte negando 
+          <pc ana="#pilcrow"/><choice><orig>Set</orig><reg>Sed</reg></choice> dicitur <unclear>forte <!-- gelber has "sorte" --></unclear> negando 
           quia est dare ita modicam contritionem qua 
           <pb ed="#P" n="152-v"/>
           <cb ed="#P" n="a"/>
           <lb ed="#P"/>minor non sufficit
         </p>
         <p xml:id="rhq-q16-d1e4236">
-          <pc ana="#pilcrow"/><unclear>contra</unclear> vel illa est successiva 
-          <lb ed="#P"/>vel instantea si primum tunc pars illius 
-          <lb ed="#P"/>foret minor <pc ana="#punctus"/> moriatur igitur immediatae tem<lb ed="#P"/>poris
+          <pc ana="#pilcrow"/>contra vel illa est successiva 
+          <lb ed="#P"/>vel instantanea si primum tunc pars illius 
+          <lb ed="#P"/>foret minor <pc ana="#punctus"/> moriatur ergo <unclear>in mediate <!-- could this also be immediate --></unclear> tem<lb ed="#P"/>poris
           <pc ana="#punctus"/> tunc salvabitur <pc ana="#punctus"/> quia in quacumque hora  
-          <lb ed="#P"/><unclear>ingeniuerit</unclear> peccator etc si instantia igitur factas  
+          <lb ed="#P"/><unclear>ingemuerit <!-- gelber also suggests ingennierit or ingenerit--></unclear> peccator etc si instantia ergo factas  
           <lb ed="#P"/>in mortali per tempus haberet infinitas ommis<lb ed="#P"/>siones 
-          mortales quarum quaelibet esset 
+          mortales quarum qualibet esset 
           <lb ed="#P"/>maior quocumque peccato dato <pc ana="#punctus"/>
         </p>
         <p xml:id="rhq-q16-d1e4267">
           <pc ana="#pilcrow"/>Similiter nullus pos<lb ed="#P"/>set 
           <add place="margin-left">sine</add> deliberatione conteri nec aliquem actum 
-          <lb ed="#P"/><unclear>virtua</unclear> elicere
+          <lb ed="#P"/>virtutis elicere
         </p>
         <p xml:id="rhq-q16-d1e4281">
-          <pc ana="#pilcrow"/>Item illa contritio foret 
-          <lb ed="#P"/>actus inperfectius et tamen sibi deberetur 
-          maius primum quam cuicum bono operi 
+          <pc ana="#pilcrow"/>Item ista contritio foret 
+          <lb ed="#P"/>actus inperfectissimus et tamen sibi deberetur 
+          maius praemium quam cuicumque bono operi 
           <lb ed="#P"/>sequenti in eodem
         </p>
       </div>
