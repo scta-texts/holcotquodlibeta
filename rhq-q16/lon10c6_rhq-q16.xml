@@ -56,20 +56,20 @@
     <body>
       <div xml:id="rhq-q16">
         <head>Quaestio 16</head>
-        <head type="question-title">Utrum sapientia in creata obliguando viatorem ad aliquod antecedens obliget eum eoipso ad quodlibet suum consequens</head>
+        <head type="question-title">Utrum sapientia in creata obligando viatorem ad aliquod antecedens obliget eum eoipso ad quodlibet suum consequens</head>
         <p xml:id="rhq-q16-d1e3853">
           <lb ed="#R"/>Utrum obligans hominem ad aliquod 
           <lb ed="#R"/>antecedens obliget ipso facto ad consequens 
         </p>
         <p xml:id="rhq-q16-d1e3864">
           <lb ed="#R"/>quod non quia ista consequentia est bona pec<lb ed="#R"/>cator 
-          dicitur disponit ad habendum gratiam igitur 
+          <unclear>dicitur</unclear> disponit ad habendum gratiam igitur 
           <lb ed="#R"/>habet quilibet obligatur ad antecedens non ad 
-          <lb ed="#R"/>antecedes igitur etc
+          <lb ed="#R"/>antecedens igitur etc
         </p>
         <p xml:id="rhq-q16-d1e3877">
           <pc ana="#pilcrow"/>ad oppositum deus obli<lb ed="#R"/>get 
-          aliquem ad ad antecedens <del rend="vacat">non ad consequens igitur 
+          aliquem ad antecedens <del rend="vacat">non ad consequens igitur 
           <lb ed="#R"/>et etc</del> igitur obligat eum ad faciendum tota<lb ed="#R"/>liter 
           sicut per antecedens denotatur <choice><orig>set</orig><reg>sed</reg></choice> per quod<lb ed="#R"/>libet 
           antecedens denotatur per ista sicut per suum 
@@ -133,9 +133,9 @@
         <p xml:id="rhq-q16-d1e4281">
           Item 
           <lb ed="#R"/>ista minima contritio foret accidens inperfectissimus 
-          <lb ed="#R"/>et tamen sibi deberetur maius primum quocumque 
+          <lb ed="#R"/>et tamen sibi deberetur maius praemium quocumque 
           <lb ed="#R"/>bono operi sequenti in eodem igitur non 
-          <lb ed="#R"/>potest dici <unclear>instantenea</unclear>
+          <lb ed="#R"/>potest dici instantanea
         </p>
       </div>
     </body>
