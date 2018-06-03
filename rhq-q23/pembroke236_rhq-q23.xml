@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 23 [Balliol 246 Transcription]</title>
+        <author ref="#Holcot">Holcot</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>John Slotemaker</editor>
+        <editor>Hester Gelber</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 23 [Balliol 246 Transcription]</title>
+          <date when="2018-01-29">January 29, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="pembroke236">Pembroke 236</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-11-07" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="154-v"/><cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rhq-q23">
+        <head>Quaestio 23 [Balliol 246 Transcription]</head>
+        <head type="question-title">Utrum qualitas suscipiat magis aut minus</head>
+        <p>
+          <!-- balliol as starter, not yet corrected -->
+          Utrum qualitas 
+          suscipiat magis 
+          aut minus
+        </p>
+        <p>
+          Respondeo et 
+          dico quod ista propositio qualitas 
+          suscipit magis et minus 
+          est distinguendum secundum sensum compositum 
+          et sensum divisum sensus compositus est inpossibilis 
+          sensus divisus est verus et hoc sit quantum ad 
+          logicam conclusionis quantum ad rem ponit quod 
+          calor habet quandam latitudinem tamen 
+          calorem habere latitudinem potest intelligi 
+          etc uno modo sic quod non habet <unclear>mediates <!-- mediatates --></unclear> distinctas 
+          realiter <choice><orig>sicud</orig><reg>sicut</reg></choice> est de tempore et motu quia hora 
+          et annus non distinguuntur realiter sicut 
+          nec sortes in foro et sortes in theatro 
+          Sed cum dicitur quod duas habet partes quarum 
+          una est dies et alia est annus vel 
+          hora propositiones debent sic intelligi 
+          hora et pars diei et haec res ut est horam 
+          minus divinat quam ut est dies vel annus 
+          vel potest sic exponi diutius est haec 
+          <pb ed="#B" n="204-r"/>
+          <cb ed="#B" n="a"/>
+          propositio vera In ista regione caelum est dies 
+          ergo ista propositio in ista regione caelum est hora 
+          nulla et sic concedendum est quod tunc habent mediatates et tunc 
+          non est alius sensus nisi iste caelum ut est hora 
+          non ita diu durat sicut caelum ut est anno <add place="margin-center">vel</add> 
+          tunc duplum ad annum vel ad horam 
+          et eodem modo est de latitudine caritatis 
+          nam eadem res realiter est latitudo 
+          caritatis habet pars sicut tempus quia eadem 
+          caritas ut est in transmutari dicitur latitudo 
+          et quando transmutatum dicitur quia 
+          et non latitudo
+          <!-- paragraph break here ?? -->
+          alio modo posset concedi 
+          vel intelligi habere mentis distinctam 
+          realiter intensive et istum sensum innuit 
+          et <unclear>negat <!-- why is "gat" raised"; seems like something between "ne" and "gat" should be added --></unclear>
+        </p>
+        <p>
+          <pc type="virgula">//</pc> 3o modo potest intelligi habere 
+          mentis distinctas realiter extensive 
+          2m mentis sibiet sic concedit quod habet 
+          mentis realiter distinctas et tunc est motus 
+          sicut habet ipsum caelum quia latitudo non est nisi 
+          ipsamet qualitas
+        </p>
+        <p>
+          <pc type="virgula">//</pc>Respondeo ad primum argumentum 
+          dicit quod si ignis in summo debeat de 
+          aqua generare ignem in summo non est 
+          ymaginandum quod continue in principio 
+          ac communis ignis latitudo qualitatis 
+          inducatur in aliquam debet est ibi una 
+          successiva corruptio aquae et non inducitur 
+          <choice><orig>alico</orig><reg>aliquo</reg></choice> qualitatis ignis nec <choice><orig>alica</orig><reg>aliqua</reg></choice> forma 
+          ignis ante ultimum instans corruptionis aquae 
+          et tunc subito inducetur summus ignis 
+          et summus calor ignis
+        </p>
+        <p>
+          <pc type="virgula">//</pc>Item in 
+          solvendo secundum principale ubi inquit 
+          utrum contra simul quo extendantur 
+          in eodem subiecto tenet quod non propter multas 
+          rationes dicens quod quando ex aqua generatur 
+          ignis non est ymaginandum quod subito 
+          corrumpatur et deinde generetur ignis 
+          et intendatur successive nec quod per mediate 
+          tempus in quo transmutabitur <unclear>uc?ati?a</unclear>
+          aquae corrumpatur tota a quo successive 
+          et in alia mediate intendatur forma 
+          ignis successive valet successive corrpetur 
+          aqua et subito generabitur forma ignis 
+          et eius qualitas ita quod non generabitur qualitas 
+          ignis ante quam tota frigiditas 
+          corrumpatur illa tamen caliditas per quam 
+          aqua dicitur calida est eadem res cum 
+          <cb ed="#B" n="b"/> <!-- 204rb -->
+          frigiditate aquae et frigiditas aquae 
+          et simul est caliditas accidentalis bene non omnis caliditas 
+          usnt eiusdem speciei cum frigiditatis 
+          aquae et ideo aqua caleditas <unclear>redit</unclear> ad 
+          rrigiditatem sine agente extrinseco 
+          unde proprie non <unclear>alteras <!-- possible correction --></unclear> se quia alteratio est 
+          proprie remissio <sic>fformae <!-- why double ff --></sic> contrariae formae 
+          agentis unde illa caliditas quando fit debilior 
+          caliditas non remittitur valet intenditur 
+          et causa est quia illa caliditas est essentialiter frigiditas 
+          et accidentis calor
+        </p>
+        <p>
+          Item 2m 
+          eundem corruptio rei naturales non est 
+          contraria generationem suae per eosdem 
+          gradus valet generatio ignis ex aliqua 
+          erit ex contraria corruptione formae 
+          aquae et suae frigiditate et generatio 
+          aquae ex illo erit ex successiva corruptione 
+          aquae in latitudine 
+          ignis et suae caliditas et subito generabitur 
+          aqua et sua frigiditatis etc 
+          salvat quod est accipere primum instans rei <unclear>perura?tis</unclear> 
+          in esset et ita ultimum et qualitas motus 
+          denotatur a posteriori pationem secundum 
+          ymaginationem conceditur 8 <title>physicorum</title> commento 69 
+          quod caliditas in aqua sic frigiditur 
+          probat sic per signum quia caliditas in 
+          aqua remittat caliditatem <unclear>inferio<!--??--></unclear> 
+          aeque <unclear>calidendo</unclear> cum aqua inconveniens est 
+          antecedens quod <choice><orig>alica</orig><reg>aliqua</reg></choice> caliditas remittat 
+          caliditatem eiusdem speciei si dicatur 
+          quod calitatis in aqua est essentialiter frigiditas 
+          quare non repraesentat sensum frigiditatem 
+          secundum qualiditatem Respondet quod sicut album 
+          positum a remotis per intentionem remissam 
+          reputat visui ita frigiditas 
+          aquae multum remissa reprasentat 
+          caliditatem 
+        </p>
+        <p>
+          <pc type="virgula">//</pc>hic est notandum quod idem 
+          calor potest esse intentior quam eam est 
+          sine additione alicuius quia faciat deus 
+          duas mediates calorum simul vel coextendi 
+          in eodem statu igitur est intentior in 2lo 
+          quam prius sed conventi hoc arguitur sic quia sit 
+          calor christi format intentior quam calor 
+          alicuius alterius quia mediatas est in eodem 
+          statu et medietas illarum et sic in infinitum dicitur quod 
+          non est ad propositum quia calor christi in sacramento non
+          <pb ed="#B" n="204-v"/>
+          <cb ed="#B" n="a"/>est ibi localiter nec situaliter
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

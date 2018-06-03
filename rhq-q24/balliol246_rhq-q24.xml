@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 24 [Balliol 246 Transcription]</title>
+        <author ref="#Holcot">Holcot</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>John Slotemaker</editor>
+        <editor>Hester Gelber</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 24 [Balliol 246 Transcription]</title>
+          <date when="2018-05-31">May 31, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="balliol246">Balliol 246</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-31" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="204-v"/><cb ed="#B" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rhq-q24">
+        <head>Quaestio 24 [Balliol 246 Transcription]</head>
+        <head type="question-title">Utrum contraria possunt esse in eodem subiecto coextensa</head>
+        <p>
+          <lb ed="#B"/>Utrum contra pos<lb ed="#B"/>sunt 
+          esse in eodem 
+          <lb ed="#B"/>subiecto <sic>coextenssa</sic>
+        </p>
+        <p>
+          quod sic 
+          <lb ed="#B"/>aliquod contrarium potest remitti 
+          <lb ed="#B"/>valet unum non remittitur 
+          <lb ed="#B"/>nisi propter intentionem alterius in eodem 
+          <lb ed="#B"/>subiecto igitur minor probatur per <name>commentatorem</name> 9 physicorum commento 
+          <sic>4iio <!-- 42?? combintation of arabaic and roman numbers--></sic> ubi dicit quod <unclear>diminutio</unclear> in omni est propter ad 
+          <lb ed="#B"/>intentionem sui contrarii et idem commento 19 eiusdem 
+          <lb ed="#B"/>et multis aliis commentis eiusdem et sic in 
+          <lb ed="#B"/>omni mixto est unum elementarium praedominans 
+          <lb ed="#B"/>cui attribuitur forma et aliud cui prae<lb ed="#B"/>dominatur 
+          sicud 10 <title>metaphysciae</title> commento 33 et 1o de caelo 
+          <lb ed="#B"/>commento 1o ubi frequentis habetur quod omne mixtum 
+          <lb ed="#B"/>moritur ad modum elementi dominantis 
+          <lb ed="#B"/>igitur in omne mixto sunt elementa contraria et 
+          <lb ed="#B"/>duae qualitatis contrariae quia nisi qualitatis 
+          <lb ed="#B"/><sic>fforent</sic> contrariae ibi elementa contraria non forent 
+          <lb ed="#B"/>ibi consequens est falsum
+        </p>
+        <p>
+          <pc type="virgula">//</pc>Respondendum ad hoc quod 
+          <lb ed="#B"/>remitti per ad mixtionem contrarii potest etc 
+          <lb ed="#B"/>intelligi vel quod suum contrarium secum coexten<lb ed="#B"/>datur 
+          in eadem materia et hoc est in possibile vle 
+          <lb ed="#B"/>quod sit mixtio contrarii agentis in passum 
+          <lb ed="#B"/>et sic concedo quod omne quod fit minus sic 
+          <lb ed="#B"/>minus per ad mixtionem sui contrarii per quod 
+          <lb ed="#B"/>patet ad primum ad 2m dicitur quod nullum <unclear>electum</unclear> est 
+          <lb ed="#B"/>pars qualitativa mixti valet solum quantitativa et quodlibet 
+          <lb ed="#B"/><unclear>ellectum</unclear> sic remissum per mixtionem sui 
+          <lb ed="#B"/>contrarii In corpus mixtum et ideo quaelibet 
+          <lb ed="#B"/>pars mixti eset mixta unde quando aliquid componitur 
+          <lb ed="#B"/>ex duobus contrariis <unclear>transi?</unclear> secundum se totum 
+          <lb ed="#B"/>tunc quaelibet pars est remissa et mixta 
+          <lb ed="#B"/>ad intellectum <name ref="#Aristotle">aristotelis</name> nec ex possibilis aliquid mixtum 
+          <lb ed="#B"/>componi ex contrariis aequalitatis et ad 
+          <lb ed="#B"/>commentatorem commento 23 dico quod intelligit per 
+          <lb ed="#B"/>inpossibile difficile valde et <name ref="#Galen">galienus</name> in cael<lb ed="#B"/>lexit 
+          per possibile facile
+        </p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
