@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,21 +44,162 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#B" n="219-r"/><cb ed="#B" n="a"/>
       </div>
     </front>
     <body>
       <div xml:id="rhq-q51">
-        <head>Quaestio 51 [Balliol 246 Transcription]</head>
-        <head type="question-title">Utrum doctrina venerabilis Anselmi rationabiliter debeat reprobari</head>
-        <p>
+        <head xml:id="rhq-q51-Hd1e105">Quaestio 51 [Balliol 246 Transcription]</head>
+        <head xml:id="rhq-q51-Hd1e108" type="question-title">Utrum doctrina venerabilis Anselmi rationabiliter debeat reprobari</head>
+        <p xml:id="rhq-q51-d1e111">
+          <lb ed="#B"/>Utrum doctrina 
+          <lb ed="#B"/><name ref="#Anselm">venerabilis anslemi</name> rationabiliter de<lb ed="#B"/>beat 
+          reprobari
         </p>
-        
+        <p xml:id="rhq-q51-d1e122">
+          quod sic arguitur quia 
+          <lb ed="#B"/>est erronea ut patet 8 de libero 
+          <lb ed="#B"/>arbitrio ubi docet quod rectitudine voluntatis 
+          <lb ed="#B"/>deus non potest aufferre a voluntate 
+          <lb ed="#B"/>et tamen tent quod illa est alia res a voluntate quod est 
+          <lb ed="#B"/>erroneum quia omnem rem distinctam totaliter 
+          <lb ed="#B"/>ab alia potest deus separari etc dicitur quod distinguitur a voluntate
+        </p>
+        <p xml:id="rhq-q51-d1e138">
+          <lb ed="#B"/>contra <unclear>arguit</unclear> igitur est effective a voluntate vel non si sic 
+          <lb ed="#B"/><unclear>contra</unclear> non est in potestate voluntatis causare in se rectitu<lb ed="#B"/>dinem 
+          sed servare ut dicit etiam affectiones 
+          <lb ed="#B"/>creatae sunt in deo <title>de concordia</title> 17 similificat rectitu<lb ed="#B"/>dinem 
+          aut volendo aut non si volendo 
+          <lb ed="#B"/>et nullus vult rectitudinem nisi habens rectitudinem 
+          <lb ed="#B"/>igitur prius habet quam causet et haec ratio eiusdem 
+          <lb ed="#B"/><title>de concordia</title> capitulo 13 si rectitudo non est effective a voluntate 
+          <lb ed="#B"/>igitur non est inputandum libero arbitrio contra <name ref="#Augustine">augustinus</name> 
+          <lb ed="#B"/>primo <title>rectractionum</title> capitulo 9 dicit quod dependet 
+          <lb ed="#B"/>a voluntate quantum conservationem non quantum ad 
+          <lb ed="#B"/>productionem contra in potestate peccatorum est produ<lb ed="#B"/>cere 
+          contra contritionem et omnis contritio est rectitudo 
+          <lb ed="#B"/>voluntatis igitur etc confirmatur quia rectitudo 
+          <lb ed="#B"/>voluntatis est eam velle quo deus vult eam 
+          <lb ed="#B"/>velle de libero arbitrio capitulo 8 sed tale velle est 
+          <lb ed="#B"/>effective a voluntate igiut etc
+        </p>
+        <p xml:id="rhq-q51-d1e195">
+          <pc type="virgula">//</pc> Item omne quod 
+          <lb ed="#B"/>homo habet si vult illud habere et non habet nisi velit 
+          <lb ed="#B"/>illud habere habet a voluntate ut videtur rectitudo est huiusmodi 
+          <lb ed="#B"/>igitur etc
+        </p>
+        <p xml:id="rhq-q51-d1e207">
+          Item 2o <title>cur deus homo</title> capitulo 14 ponit 
+          <lb ed="#B"/><sic>ii</sic> propositiones prima est quod facere contra dei voluntatem 
+          <lb ed="#B"/>in quod putamus laevisimum mortale est tan<lb ed="#B"/>tae 
+          gratuitatis quod fieri non <unclear>deberent</unclear> pro infinitis 
+          <lb ed="#B"/>mundis <sic>salandis</sic> sed contra tunc quod licet propositionem 
+          <lb ed="#B"/>est infinite malitiae intentione quia si infinite 
+          <lb ed="#B"/>tunc solo aliquod modorum esset ita bona 
+          <lb ed="#B"/>sicut illud foret <unclear>malum</unclear>
+        </p>
+        <p xml:id="rhq-q51-d1e239">
+          <pc type="virgula">//</pc> 2a propositio minima lae<lb ed="#B"/>sio 
+          christi esse maius malum infinitum quam omnia 
+          <lb ed="#B"/>peccata extra personam Christi Contra tunc interfectio christi 
+          <lb ed="#B"/>non sint magis mala quam minima laesio christi 
+        </p>
+        <p xml:id="rhq-q51-d1e251">
+          <lb ed="#B"/>3a vita christi fuit magis bona quam omnia 
+          <lb ed="#B"/>peccata sunt mala contra tunc fuit magis 
+          <lb ed="#B"/>bona quam eius interemptio consequens contra eum 
+          <lb ed="#B"/>quia omne bonum tam bonum est quam mala 
+          <lb ed="#B"/>est destructio <add place="above-line">2o</add> <title>cur dues homo</title> capitulo 14 et tamn 
+          <lb ed="#B"/>malum fuit eum occidere quam bonam 
+          <lb ed="#B"/>fuit eius vitam capitulo iii
+        </p>
+        <p xml:id="rhq-q51-d1e275">
+          Item vita 
+          <cb ed="#B" n="b"/>
+          <lb ed="#B"/>christi fuit <sic>suficiens</sic> satisfactio pro peccato ergo 
+          <lb ed="#B"/>fuit bonum infinitum contra prima per aliud 1o <title>cur 
+          <lb ed="#B"/>deus homo</title> capitulo 21 numquam satisfacit nisi reddat 
+          <lb ed="#B"/>aliquid magis quam si illud pro quo facere peccatum 
+          <lb ed="#B"/>non debueras sed pro nullo bono finito 
+          <lb ed="#B"/>deberet homo peccare ut dicit 1a propositio igitur
+        </p>
+        <p xml:id="rhq-q51-d1e299">
+          <lb ed="#B"/>4a propositio omne bonum tam bonum est quam 
+          <lb ed="#B"/><unclear>malum</unclear> est eius destructio
+        </p>
+        <p xml:id="rhq-q51-d1e309">
+          contra praecipiat 
+          deus <name>sortes</name> quod non destruat istam festu<lb ed="#B"/>cam 
+          sub pena peccati mortalis et quod non 
+          <lb ed="#B"/>occidat leonem sub pena peccati ve<lb ed="#B"/>nialis 
+          et faciat contra utrumque tunc festuca 
+          <lb ed="#B"/>est maior bonitatis quam leo quia eius de<lb ed="#B"/>structio 
+          est peior
+        </p>
+        <p xml:id="rhq-q51-d1e326">
+          <pc type="virgula">//</pc>5avita corporis christi 
+          <lb ed="#B"/>est magis animalis quam anima eius peccato 
+          <lb ed="#B"/>sunt odibilia contra tantum primo est animalis 
+          <lb ed="#B"/>et contra quia mando deum odit peccatum 
+          <lb ed="#B"/>et odiendo peccatum amat deum
+        </p>
+        <p xml:id="rhq-q51-d1e340">
+          Item 
+          <lb ed="#B"/>si sic et constat quod nullus debuisse est non plus 
+          <lb ed="#B"/>amasse quam odisse peccatum igitur non de<lb ed="#B"/>buit 
+          in tam illam <seg type="correction">odisset</seg> pro satisfactione 
+          <lb ed="#B"/>peccati
+        </p>
+        <p xml:id="rhq-q51-d1e354">
+          <pc type="virgula">//</pc>Item <title>proslogion</title> capitulo 25o nota
+        </p>
+        <p xml:id="rhq-q51-d1e363">
+          item dicit 
+          <lb ed="#B"/>de beata virgine quod fuit concepta et na<lb ed="#B"/>ta 
+          in originali 2o cur deus homo capitulo 16 ide pro<lb ed="#B"/>bat 
+          quod deus non potest tollere rectitudinem 
+          a voluntate quia vel nolendo vel non volendo 
+          <lb ed="#B"/>ut patet nec volendo quia si sic vel quod facit 
+          <lb ed="#B"/>et a cuius voluntate vult auferre rectitudinem 
+          <lb ed="#B"/>non vult eam servare rectitudinem valet 
+          <lb ed="#B"/>servare rectitudinem est velle quod deus 
+          <lb ed="#B"/>vult eum velle igitur si deus rectitudinem 
+          <lb ed="#B"/>tollit a voluntate non vult eum 
+          <lb ed="#B"/>velle quod vult eum velle
+        </p>
+        <p xml:id="rhq-q51-d1e387">
+          sed contra quia 
+          <lb ed="#B"/>dyabolus sicut deus vult eum velle quia deus 
+          <lb ed="#B"/>ist consequentiam istam esse bonam diabolus est 
+          <lb ed="#B"/>obstinatus in malo igitur vult iniuste 
+          <lb ed="#B"/>et deus vult antecedens et consequentiam esse bonam 
+          <lb ed="#B"/>igitur vult consequens 
+        </p>
+        <p xml:id="rhq-q51-d1e401">
+          item si nulla voluntatis foret 
+          <lb ed="#B"/>recta nisi quia vellet sicut deus vult eam 
+          <lb ed="#B"/>velle sequitur quod in Christo fuisset aliqua 
+          <lb ed="#B"/>voluntas non recta cum dixit <title>matthaeus</title> 26 <quote xml:id="rhq-q51-Qd1e412" ana="#mt26_39">non 
+          <lb ed="#B"/>sicut <unclear>ego</unclear> volo sicut tu</quote> etc 
+        </p>
+        <p xml:id="rhq-q51-d1e421">
+          Item contra illam formam arguendi <name>anselmi</name> <unclear>arguitur</unclear> 
+          <lb ed="#B"/>quia quando deus aufert gratiam aut vult eum 
+          <lb ed="#B"/>non habere gratiam aut non vult si vult
+          <lb ed="#B"/>eum non igitur etc pro tunc non est debitor 
+          <lb ed="#B"/>gratiae sed contra praecipit ei semper habere gratiam 
+          <lb ed="#B"/>igitur si vult eam habere igitur confert 
+          <lb ed="#B"/>ad illam propositionem igitur de rectitudi<lb ed="#B"/>ne 
+          voluntatis dico quod intelligit quod 
+          <lb ed="#B"/>deus non potest separare illam a vo<lb ed="#B"/>luntate 
+          habente gratiam ipsa in vita 
+          <lb ed="#B"/>de potentia ordinata et sic patet 
+          <lb ed="#B"/>finis quaestionis
+        </p>
       </div>
     </body>
   </text>

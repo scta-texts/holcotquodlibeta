@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 50 [Balliol 246 Transcription]</title>
+        <author ref="#Holcot">Holcot</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>John Slotemaker</editor>
+        <editor>Hester Gelber</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 50 [Balliol 246 Transcription]</title>
+          <date when="2018-06-15">June 6, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="pembroke236">Pembroke 236</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-06-15" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#P" n="159-r"/><cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rhq-q50">
+        <head xml:id="rhq-q50-Hd1e105">Quaestio 50 [Pembroke 2236 Transcription]</head>
+        <head xml:id="rhq-q50-Hd1e108" type="question-title">Utrum aliqua propositio possit componi ex intentionibus et speciebus in anima naturaliter significantibus rem extra</head>
+        <p xml:id="rhq-q50-d1e111">
+          <lb ed="#P"/>Utrum aliqua propositio possit componi 
+          <lb ed="#P"/>ex intentionibus et speciebus in anima 
+          <lb ed="#P"/>naturaliter significantibus rem extra 
+        </p>
+        <p xml:id="rhq-q50-d1e120">
+          hic 
+          <lb ed="#P"/>dicit quidam duplicem propositionem mentalem 
+          <lb ed="#P"/>esse in anima unam correspondentem propositioni vocali et aliam 
+          <lb ed="#P"/>correspondentem propositioni scriptae quae inter differunt 
+          specie quia impossibile est unam esse similitudinem
+          <cb ed="#P" n="b"/>
+          naturalem duarum rerum specie distinctarum quia naturalis 
+          <lb ed="#P"/>similitudo et illud cuius est sunt eiusdem speciei <sic>set</sic> propositio 
+          <lb ed="#P"/>mentalis et scripta differunt specie igitur per consimilem 
+          <lb ed="#P"/>rationem probatur quod propositiones mentales differunt specie quae 
+          <lb ed="#P"/>tamen correspondent propositionibus in scripto quia multae propositiones 
+          <lb ed="#P"/>in scripto differunt specie quia aliquae sunt lapideae 
+          <lb ed="#P"/>aliquae ligneae <sic>set</sic> omnes propositiones mentales  
+          correspondentes vocalibus sunt eiusdem speciei 
+        </p>
+        <p xml:id="rhq-q50-d1e164">
+          <pc type="virgula">//</pc> 
+          <lb ed="#P"/><pc type="#pilcrow"/>Item secundum istos nulla propositio mentalis est ponenda nisi compona<lb ed="#P"/>tur 
+          ex terminis qui sunt naturales similitudines ter<lb ed="#P"/>minorum 
+          scriptorum vel prolatorum unde ex speciebus 
+          <lb ed="#P"/>quas ponunt naturales similitudines rerum sicut hominis 
+          <lb ed="#P"/>et huius nulla propositio componitur <sic>set</sic> tantum ex terminis 
+          <lb ed="#P"/>qui sunt naturales similitudines vocis vel scripti 
+          <lb ed="#P"/>qua quidem termini significant res ad placitum quae per 
+          <lb ed="#P"/>voces et scripturas significantur licet ipsas 
+          <lb ed="#P"/>voces et scripturas significent naturaliter et ideo 
+          <lb ed="#P"/>omnis propositio mentalis de toto mundo correspondet 
+          <lb ed="#P"/>secundum eum alicui <unclear>ydiomati</unclear> vel alicui scripturae
+        </p>
+        <p xml:id="rhq-q50-d1e199">
+          <pc type="#punctus">:</pc> et 
+          <lb ed="#P"/>ex isto concludit quod haec descriptio termini mentalis 
+          <lb ed="#P"/>non valet quia terminus mentalis est intellectio vel passio 
+          <lb ed="#P"/>animae significans aliquid natum esse pars propositionis mentalis
+          <!-- possible break point -->
+          <lb ed="#P"/><pc type="#pilcrow"/>haec opinio arguitur sic terminus nihil significat naturaliter quia 
+          <lb ed="#P"/>in diffinitione nominis et verbi cadit significare ad 
+          <lb ed="#P"/>placitum primo <title>peryhermenias</title> 
+          <!-- possible break point -->
+          <pc type="#pilcrow"/> Dicitur quod ibi deffinitur nomen 
+          <lb ed="#P"/>et verbum in voce tantum
+        </p>
+        <p xml:id="rhq-q50-d1e237">
+          <pc type="#pilcrow"/> Contra ad logicam 
+          <lb ed="#P"/>pertinet determinare de propositione etc termino mentali 
+          <lb ed="#P"/>quia illa quae pertinent ad logicam istis attribuit et haec 
+          <lb ed="#P"/>non facit alibi ergo ibi 
+          <!-- possible break point -->
+          <pc type="#pilcrow"/>praeterea licet diffi<lb ed="#P"/>niens 
+          hominem intendat deffinire hominem 
+          <lb ed="#P"/>verum et non pictum tamen sicut homo pictus dicitur 
+          <lb ed="#P"/>homo improprie tamen ita dicitur animal rationale improprie
+        </p>
+        <p xml:id="rhq-q50-d1e259">
+          <pc type="#pilcrow"/>Similiter 
+          <lb ed="#P"/>intendat ibi deffinire talia in voce tamen 
+          <lb ed="#P"/>si diffinita inveniantur in intellectu et diffinitiones 
+          <lb ed="#P"/>eis <unclear>convenient</unclear> ergo omne <unclear>nulla</unclear> mentale significat ad placitum <!-- gelber has plurimum, but I'm pretty sure placitum is correct -->
+        </p>
+        <p xml:id="rhq-q50-d1e272">
+          <lb ed="#P"/><pc type="#pilcrow"/>Item quilibet experitur in se ipso quod potest formare ante<lb ed="#P"/>quam 
+          loquatur tales propositiones et terminos significan<lb ed="#P"/>tes 
+          ad placitum unde qui novet latinum format 
+          <lb ed="#P"/>propositiones latinas
+        </p>
+        <p xml:id="rhq-q50-d1e290">
+          <pc type="#pilcrow"/>Item omni vocabuli correspondet 
+          <lb ed="#P"/>aliqua mentalis ergo isti ens est unum igitur subiecto 
+          correspondet terminus mentalis qui naturaliter significat omnes 
+          <lb ed="#P"/>res consequens falsum quia quod aliquid sit alicuius signum 
+          <lb ed="#P"/>naturale tantum tripliciter contingit quia vel est ipsius 
+          <lb ed="#P"/>causa vel effectus vel eius naturalis similitudo quorum 
+          <lb ed="#P"/>nullum competere termino mentali respectu omnium 
+          <lb ed="#P"/>rerum
+        </p>
+        <p xml:id="rhq-q50-d1e325">
+          <pc type="#pilcrow"/>Item viator format istas <mentioned>deus est 
+          <lb ed="#P"/>trinus et unus</mentioned> ergo trinus mentalis correspondens subiecto fo<lb ed="#P"/>ret 
+          signum naturale dei
+        </p>
+        <p xml:id="rhq-q50-d1e338">
+          <pc type="#pilcrow"/>Item tunc subiectum illius 
+          <lb ed="#P"/>propositionis in mente omnis qualitas inhaereret substantiae fo<lb ed="#P"/>ret 
+          naturalis similitudo omnis qualitas quod est inpossibilis quia eo 
+          <lb ed="#P"/>ipso quod est naturalis similitudo unius est naturalis dissimilitudo 
+          <lb ed="#P"/>alterius <pc type="#punctus"/>
+        </p>
+        <p xml:id="rhq-q50-d1e352">
+          <pc type="#pilcrow"/>Item de ratione verbi est quod intelligitur 
+          <lb ed="#P"/>ab informante <sic>set</sic> quando formo verbum 
+          <lb ed="#P"/>colorum nullus experitur se habere verbum rerum 
+          <lb ed="#P"/>contrariarum et naturalem similitudinem earundem ergo etc
+        </p>
+        <p xml:id="rhq-q50-d1e368">
+          <lb ed="#P"/><pc type="#pilcrow"/>Item posito unico verbo albedinis potest intellectus 
+          <lb ed="#P"/>formare hanc albedo est albedo ergo ibi sunt 
+          <lb ed="#P"/>duae similitudines naturales omnium albedinum
+        </p>
+        <p xml:id="rhq-q50-d1e377">
+          <pc type="#pilcrow"/>Sed 
+          <lb ed="#P"/>contra istam opinionem est <ref xml:id="rhq-q50-Rd1e384"><name ref="#Anselm">anselmus</name> <title>monologion</title> 31o</ref> et sic 
+          <lb ed="#P"/><quote xml:id="rhq-q50-Qd1e392" source="http://scta.info/resource/adcmon-c31">nulla ratione <unclear>nageri</unclear> potest cum mens rationalis seipsam 
+          <lb ed="#P"/>intelligat ymaginem ipsius nasci in 
+          <lb ed="#P"/>eius cogitatione ymmo ipsam cogitationem sui 
+          <pb ed="#P" n="159-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P"/>esse suam ymaginem ad eius similitudinem tamquam 
+          <lb ed="#P"/>ex eius inpressione factam</quote> haec ille
+        </p>
+        <p xml:id="rhq-q50-d1e415">
+          Si ergo talis simili<lb ed="#P"/>tudo 
+          nata in anima sit vere eiusdem speciei 
+          <lb ed="#P"/>cum ipsa sequitur quod anima quaelibet infinitas produceret 
+          <lb ed="#P"/>animas rationales et cum anima rationalis solummodo <unclear>creetur</unclear>
+          <lb ed="#P"/>sequitur quod anima possit creare
+        </p>
+        <p xml:id="rhq-q50-d1e429">
+          <pc type="#pilcrow"/>Item species 
+          <lb ed="#P"/>hominis est in mente angeli <sic>set</sic> species hominis est 
+          <lb ed="#P"/>homo ergo
+        </p>
+        <p xml:id="rhq-q50-d1e439">
+          <pc type="#pilcrow"/>Item multi homines fuerit qui nec 
+          <lb ed="#P"/>habuerunt patrem nec matrem nec unquam com<lb ed="#P"/>ederunt 
+          nec unquam biberunt et tamen du<lb ed="#P"/>raverunt 
+          ab initio mundi nec illi homines possunt 
+          <lb ed="#P"/>ridere et per consequens non sunt <unclear>risibiles</unclear> nec unquam 
+          <lb ed="#P"/>deus illos iudicabit nec tales unquam mo<lb ed="#P"/>rientur 
+          nec sunt mortales
+        </p>
+        <p xml:id="rhq-q50-d1e463">
+          <pc type="#pilcrow"/>Item angelus inferior 
+          <lb ed="#P"/>intelligit superiorem ergo habet in se angelum no<lb ed="#P"/>bilior 
+          se quia illam speciem
+        </p>
+        <p xml:id="rhq-q50-d1e470">
+          <pc type="#pilcrow"/>Item tot sunt 
+          <lb ed="#P"/><sic>fenices</sic> tot soles tot lunae quot sunt in<lb ed="#P"/>telligentes 
+          fenicem solem et lunam
+        </p>
+        <p xml:id="rhq-q50-d1e491">
+          Item si deus ad<lb ed="#P"/>nihilaret 
+          omnia corpora mundi adhuc forent multi 
+          <lb ed="#P"/>homines et multa leones in mente angelorum
+        </p>
+        <p xml:id="rhq-q50-d1e506">
+          <pc type="virgula">//</pc> <unclear>Item</unclear> 
+          <lb ed="#P"/>multi homines erant creata ante <name>adam</name> quia in angelis 
+          <lb ed="#P"/>fuerunt species hominis concreatae ante <name>adam</name>
+        </p>
+        <p xml:id="rhq-q50-d1e522">
+          Item 
+          <lb ed="#P"/>color est extremitas perspicui in corpore terminato
+          <lb ed="#P"/><ref xml:id="rhq-q50-Rd1e530"><title>de sensu et sensato</title> capitulo 6</ref> et <ref xml:id="rhq-q50-Rd1e537">2o <title>de anima</title></ref>
+          <!-- possible break point -->
+          <pc type="#pilcrow"/>Dicitur quod co<lb ed="#P"/>lor 
+          est motius lucidi si actum igitur color in ce<lb ed="#P"/>rebro 
+          vere videtur
+        </p>
+        <p xml:id="rhq-q50-d1e549">
+          <pc type="#pilcrow"/>Item omne grave naturaliter 
+          <lb ed="#P"/>descendit <sic>set</sic> species lapidis in mente angeli 
+          <lb ed="#P"/>est gravis quare igitur non descendit
+        </p>
+        <p xml:id="rhq-q50-d1e560">
+          <pc type="#pilcrow"/>Item 
+          <lb ed="#P"/>vel species lapidis in anima vel in angelo est substantia 
+          <lb ed="#P"/>corporea vel in corporea si incorporea ergo non est corpus 
+          <lb ed="#P"/>si corporea ergo lapis est maximus est naturaliter in loco <unclear>parta<lb ed="#P"/>li</unclear> 
+        </p>
+        <p xml:id="rhq-q50-d1e572">
+          <pc type="#pilcrow"/>Item <name ref="#Aristotle">aristoteles</name> dicit quod <quote xml:id="rhq-q50-Qd1e579" ana="#Aristotle_DeAnima_III_8_a">lapis non est in anima</quote> 
+          <lb ed="#P"/><sic>set</sic> species lapidis quod falsum est per istam opinionem
+        </p>
+        <p xml:id="rhq-q50-d1e585">
+          <lb ed="#P"/><pc type="#pilcrow"/>Item 2o <title>de anima</title> commento 104 si visus haberet colorem 
+          <lb ed="#P"/>in actu non reciperet alios colores
+        </p>
+        <p xml:id="rhq-q50-d1e595">
+          <pc type="#pilcrow"/>Item 
+          <lb ed="#P"/><name>augustinus</name> 10 <title>confessionum</title> capitulo 15 et 16 dicit quod <sic>ymago</sic> 
+          <lb ed="#P"/><sic>tristitiae</sic> est in memoria et tamen nulla tristitia 
+        </p>
+        <p xml:id="rhq-q50-d1e612">
+          <pc type="#pilcrow"/>pro 
+          <lb ed="#P"/>ista tamen opinione ponit multas auctoritates 2o de 
+          <lb ed="#P"/>anima commento <unclear>57</unclear> <quote xml:id="rhq-q50-Qd1e620">color habet duplex esse scilicet in corpore colorato et 
+          <lb ed="#P"/>hoc est esse corporale et in diaphano et hoc esse est spiritu<lb ed="#P"/>ale</quote>
+        </p>
+        <p xml:id="rhq-q50-d1e629">
+          <pc type="#pilcrow"/>Item 7 <title>metaphysicae</title> commento 23o <quote xml:id="rhq-q50-Qd1e636">sanitas dicitur de 
+            <lb ed="#P"/>intellectu sanitatis quae est in anima et de sanitate 
+          <lb ed="#P"/>quae est in corpore</quote> et eodem commento forma <unclear>argumentis</unclear> est
+          <lb ed="#P"/>duplex una quae est in anima et alia quae est extra et sunt 
+          <lb ed="#P"/>idem 
+        </p>
+        <p xml:id="rhq-q50-d1e648">
+          <pc type="#pilcrow"/>Item 11o metaphysicae de balneo in anima etc
+        </p>
+        <!-- paragraph break here -->
+        <p xml:id="rhq-q50-d1e658">
+          <pc type="#pilcrow"/>ponit et ille idem quod cognitio est potentia ccogni<lb ed="#P"/>tiva 
+          quae est ipsa anima <pc type="#pilcrow"/>unde cognitio humana non est 
+          <lb ed="#P"/>nisi anima cognoscens tamen iste terminus cognitio ut dicit 
+          <lb ed="#P"/>quandoque accipitur pro re qua cognoscens formaliter est 
+          <lb ed="#P"/>cognoscens aliquando accipitur pro similitudo rei cogni<lb ed="#P"/>tae 
+          aliquando pro re cognita primo modo dicitur cognitio 
+          <lb ed="#P"/>formalis 2o modo materialis 3o modo materialis vel obiectiva 
+          <lb ed="#P"/>mediata 
+        </p>
+        <p xml:id="rhq-q50-d1e686">
+          <pc type="virgula">//</pc> <pc type="#pilcrow"/>Item distinguit istum terminum cogni<lb ed="#P"/>tivum 
+          quia quandoque accipitur pro efficiente cognitionum aliquando pro 
+          <lb ed="#P"/>receptivo cognitionis aliquando pro illo quo aliquid potest forma<lb ed="#P"/>liter 
+          cognoscere
+        </p>
+        <p xml:id="rhq-q50-d1e703">
+          <pc type="virgula">//</pc> <pc type="#pilcrow"/> Prima ergo conclusio sua est haec omnis 
+          <lb ed="#P"/>cognitio humana primo modo accepta est potentia cognitiva 
+          <lb ed="#P"/>probatur si cognitio foret qualitas superaddita per divinam 
+          <lb ed="#P"/>potentiam posset poni lapide et sic non cogni<lb ed="#P"/>tivum 
+          cognosceret nec valet dicere quod illa qualitas 
+          <lb ed="#P"/>non potest esse perfectio formalis lapidis quia natura humana 
+          <lb ed="#P"/>est in persona divina et cum non perficit eam formaliter 
+          <lb ed="#P"/>et hoc non obstante denominat eam formaliter secundum suas 
+          <cb ed="#P" n="b"/>
+          <lb ed="#P"/>proprietates <pc type="#punctus"/>
+        </p>
+        <p xml:id="rhq-q50-d1e730">
+          <pc type="#pilcrow"/>Item color formaliter videtur per visionem 
+          igitur conservato <unclear>corpore</unclear> et visione semper erit 
+          <lb ed="#P"/>haec vera color videtur igitur destructa potentia <unclear>visibilia</unclear> heac 
+          <lb ed="#P"/>erit vera color visibilis<!-- big homoteleuton here -->
+        </p>
+        <p xml:id="rhq-q50-d1e744">
+          <pc type="#pilcrow"/>Item quando aliquid est aliqua<lb ed="#P"/>le 
+          per aliud illud aliud est per se tale <sic>set</sic>potentia cognitiva 
+          <lb ed="#P"/>est formaliter cognoscens per cognitionem ergo cognitio 
+          <lb ed="#P"/>formaliter seipsa cognoscit igitur destincta potentia 
+          <lb ed="#P"/>cognitiva sive intellectiva intellectio intelligeret
+        </p>
+        <p xml:id="rhq-q50-d1e751">
+          <lb ed="#P"/><pc type="#pilcrow"/>Item impossibile est praedicamenta contradictoria respectiva <unclear>verificari</unclear> 
+          successive de aliqua re nulla facta mutatione circa 
+          <lb ed="#P"/>rem de qua verificantur nec circa rem cuius 
+          <lb ed="#P"/>verificatur <sic>set</sic> ista praedicata intellectio non intellectio 
+          <lb ed="#P"/>sunt praedicata contradictoria respectiva ergo impossibile est illa verficari 
+          <lb ed="#P"/>de qualitate quae dicitur intellectio nulla facta etc etc igitur si destruatur 
+          <lb ed="#P"/>potentia intellectiva et conservetur obiectum et qualitas habent 
+          <lb ed="#P"/>vera si foretur haec qualitas est <unclear>intellectio</unclear>
+        </p>
+        <p xml:id="rhq-q50-d1e796">
+          <pc type="#pilcrow"/>Item impossibile 
+          <lb ed="#P"/>est effectum esse perfectiorem sua causa efficiente <sic>set</sic> 
+          <lb ed="#P"/>cognitio est quandoque perfectior obiecto cognito et potentia cogni<lb ed="#P"/>tiva 
+          si est res distincta a potentia cognitiva igitur nec potest causa<lb ed="#P"/>ri 
+          ab obiecto nec ab obiecto
+        </p>
+        <!-- why break ?? -->
+        <p xml:id="rhq-q50-d1e809">
+          <pc type="#pilcrow"/>Dicitur quod causatur ab 
+          <lb ed="#P"/>utroque et non ab altero ut a causa totali <sic>sed</sic> partiali 
+          tantum <pc type="#punctus"/>
+        </p>
+        <p xml:id="rhq-q50-d1e817">
+          contra illa cognitio est divisibilis vel indivisibilis 
+          <lb ed="#P"/>si indivisibilis igitur a quocumque producitur totaliter producitur 
+          <lb ed="#P"/>alioquin idem <unclear>vis <!-- bis ?? --></unclear> produceretur et una causa super<lb ed="#P"/>flueret 
+          ex quo producitur totaliter ab altera si 
+          <lb ed="#P"/>divisibilis ergo cum nullum divisibile sit in infinitum divisibile 
+          <lb ed="#P"/>ut dicit ille sic opinans sequitur quod est devenire 
+          <lb ed="#P"/>ad cognitionem indivisibile et de illa quaerendum est 
+          <lb ed="#P"/>aut causatur totaliter ab obiecto vel non etc
+        </p>
+        <p xml:id="rhq-q50-d1e837">
+          <pc type="#pilcrow"/>Item 
+          si omne cognitivum in homine sit potentia cognitiva 
+          <lb ed="#P"/><unclear>set</unclear> alia cognitio hominis est cognitiva ergo alia cognitio 
+          <lb ed="#P"/>hominis est potentia cognitiva
+        </p>
+        <p xml:id="rhq-q50-d1e850">
+          <pc type="#pilcrow"/>Item iste terminus cognitivum 
+          <lb ed="#P"/>vel dicit causam effectivam materialem vel formalem 
+          <lb ed="#P"/>vel finalem non primum quia sic vel foret cogni<lb ed="#P"/>tivum 
+          nisi quod actualiter cognosceret nec 2o nec 4o modo 
+          ut patet ergo 3o modo et per consequens idem quod est cognitivum 
+          <lb ed="#P"/>est cognitio quando actu aliquis cognoscitur ergo intellectio 
+          <lb ed="#P"/>est potentia intellectiva
+        </p>
+        <p xml:id="rhq-q50-d1e871">
+          <pc type="#pilcrow"/>Item si aliquid sit causatum 
+          <lb ed="#P"/>a re visa vel igitur agit aequivoce vel univoce 
+          <lb ed="#P"/>si univoce igitur sunt eiusdem rationis et sic pari<lb ed="#P"/>es 
+          alba videret sua albedine et sic falsum 
+          <lb ed="#P"/>repraesentaretur quia quando duae qualitates sunt eiusdem 
+          <lb ed="#P"/>speciei et alia res fuerit aliqualis per unam reliquam 
+          <lb ed="#P"/>erit talis per reliquam <!-- possible break --> <pc type="#pilcrow"/>si agens est aequivocum 
+          <lb ed="#P"/>aut visio est perfectior vel inperfectior si perfectior 
+          <lb ed="#P"/>igitur effectus foret perfectior sua causa efectiva
+          <!-- possible break -->
+          <lb ed="#P"/><pc type="#pilcrow"/>si imperfectior igitur foret visio imperfectior albedine 
+          <lb ed="#P"/>consequens falsum <pc type="#pilcrow"/>dicitur quod causatur ab obiecto et potentia re<lb ed="#P"/>ceptiva
+        </p>
+        <p xml:id="rhq-q50-d1e909">
+          <pc type="#pilcrow"/>contra sic possem ego fingere 
+          <lb ed="#P"/>quod nulla qualitas causatur ab obiecto extrinseca <pc type="#pilcrow"/><sic>set</sic> contra 
+          <lb ed="#P"/>est commentator 2o <title>de anima</title> commento 140 <quote xml:id="rhq-q50-Qd1e924">sicut actio passio 
+          <lb ed="#P"/>sunt in patiente non in agente ita actio 
+          <lb ed="#P"/>sensum et sensibilium sunt in sensibilitate</quote> ex quo patet intentio
+        </p>
+        <p xml:id="rhq-q50-d1e935">
+          <lb ed="#P"/> <pc type="#pilcrow"/> Item si intentio sit qualitas superaddita sit 
+          <lb ed="#P"/>illa <c>a</c> volo igitur quod cognoscens cognoscat 
+          <lb ed="#P"/><c>a</c> aut igitur ipso <c>a</c> aut alia intellectione cognoscit 
+          <lb ed="#P"/><c>a</c> si alia erit processus in infinitum si seipsa 
+          <lb ed="#P"/>igitur eadem ratione etc <pc type="#pilcrow"/>confirmatur per <name ref="#Augustine">augustinum</name> 2 
+          <lb ed="#P"/><title>de trinitate</title> capitulo 4 <quote xml:id="rhq-q50-Qd1e973" source="http://scta.info/resource/adt-l4">ipsa visio non est aliud quam sensus qui 
+          <lb ed="#P"/>videt esse videtur hoc est visio non est aliud esse videtur 
+          <lb ed="#P"/>quam sensus informatus specie</quote> <pc type="#punctus"/>
+        </p>
+        <p xml:id="rhq-q50-d1e982">
+          <pc type="#pilcrow"/> ad ista tamen Respondetur 
+          <lb ed="#P"/>ad primum conceditur totum usque ibi cognitivum intelligit 
+          <lb ed="#P"/>quod <unclear>nemo</unclear> quia non <unclear>cognitivum</unclear> non est cognitio nec 
+          <lb ed="#P"/>denominat aliquid cognoscens nisi quando est in natura cognitiva 
+          <lb ed="#P"/>etiam eodem modo 
+          <!-- break -->
+          pono contra eum pono quod deus ponat animam in<lb ed="#P"/>formatam 
+          specie in lapide et tunc habet ille conclusionem concedere 
+          <lb ed="#P"/>quia non plus requiritur per eum ad hoc quod una res 
+          <lb ed="#P"/>denominet aliam nisi quod sit in distans ab ea
+        </p>
+        <p xml:id="rhq-q50-d1e1017">
+          <lb ed="#P"/><pc type="#pilcrow"/> Item deus est in lapide et deus est intellectio igitur etc 
+          <lb ed="#P"/>et tamen falsum est dicere quod lapis intelligit igitur
+        </p>
+        <p xml:id="rhq-q50-d1e1024">
+          <pc type="#pilcrow"/>Item 
+          <lb ed="#P"/>intellectio est in pede quia anima et tamen pes non intelligit
+        </p>
+        <p xml:id="rhq-q50-d1e1032">
+          <lb ed="#P"/> <pc type="#pilcrow"/> Item haec consequentia non est formalis lapis intelligit igitur non 
+          <lb ed="#P"/>cognitum intelligit quia tantum est consequentia ut nunc quia 
+          <lb ed="#P"/>si deus assumeret lapidem antecedens esset verum 
+          <lb ed="#P"/>et consequens falsum
+        </p>
+        <p xml:id="rhq-q50-d1e1046">
+          <pc type="virgula">//</pc> <pc type="#pilcrow"/> ad 2m dico eodem modo quia illo 
+          <lb ed="#P"/>casu posito illa qualitas non foret visio quia 
+          <lb ed="#P"/>iste terminus visio supponit pro una quantitate 
+          <lb ed="#P"/>connotans eam esse in certo subiecto
+        </p>
+        <p xml:id="rhq-q50-d1e1058">
+          <pc type="#pilcrow"/> ad 3m dico 
+          <lb ed="#P"/>quod una causa non denominat aliam nisi forte de<lb ed="#P"/>nominatione 
+          extrinseca nihil enim est dictum actio forma<lb ed="#P"/>lis 
+          vel materia finalis
+        </p>
+        <p xml:id="rhq-q50-d1e1070">
+          <pc type="#pilcrow"/>ad 4m dico quod stante 
+          <lb ed="#P"/>illa specie in anima anima quandoque est intellecto quando non <pc type="virgula">/</pc> 
+          <lb ed="#P"/><pc type="#pilcrow"/>Similiter assumit falsum quia volo quod circulus signi<lb ed="#P"/>ficet 
+          ibi esse <unclear>vinum</unclear> ab hora prima usque ad horma 9am 
+          <lb ed="#P"/>et non ultra tunc signum et non signum sunt prae<lb ed="#P"/>dicata 
+          respectiva contradictoria <pc type="#pilcrow"/>Similiter rex facit 
+          <lb ed="#P"/>quod denarius est nunc praetium panis et prius non 
+          <lb ed="#P"/>fuit et tamen nec panis mutatur nec 
+          <lb ed="#P"/>denarius sicut deus creat animam <name>platonis</name> in <c>a</c> 
+          <lb ed="#P"/>et tunc nec deus mutatur nec anima
+        </p>
+        <p xml:id="rhq-q50-d1e1110">
+          <pc type="#pilcrow"/>ad aliud dico 
+          <lb ed="#P"/>quod dicimus hanc conclusionem esse demonstrativam non quia 
+          <lb ed="#P"/>demonstrat nec habitum electivum quia elegit <sic>set</sic> quia 
+          <lb ed="#P"/>homo eligit per illum
+        </p>
+        <p xml:id="rhq-q50-d1e1119">
+          <pc type="#pilcrow"/>ad aliud dico quod anima secundum 
+          <lb ed="#P"/>eum est cognitiva et anima est cognitio nam iste 
+          <lb ed="#P"/>terminus cognitivum dicit causam formalis cogni<lb ed="#P"/>tionis 
+          quaero de illa causa vel est cognitio vel alia 
+          <lb ed="#P"/>res si alia cognitio est opposita <pc type="#punctus"/>
+        </p>
+        <p xml:id="rhq-q50-d1e1130">
+          <pc type="#pilcrow"/>alia conclusio eius 
+          <lb ed="#P"/>est  haec <pc type="#punctus"/> Similitudo cognoscentis quae est naturalis similitudo 
+          <lb ed="#P"/>qualitatis sensibilis extra cognoscitur et <unclear>senseritur</unclear> non cogni<lb ed="#P"/>ta 
+          re cuius est similitudo patet per motionem circularem 
+          <lb ed="#P"/>virgae ignitae in cuius extremitate videtur circulus 
+          <lb ed="#P"/>igneus <sic>set</sic> nullus talis circulus est extra videntem 
+          <lb ed="#P"/>cuius causa naturalis ut dicit est illa quia color unius 
+          <lb ed="#P"/>partis virgae existens in uno situ causat simili<lb ed="#P"/>tudinem 
+          suam in capite videntis et in alio 
+          <lb ed="#P"/>situ existens causat aliam quae conterminatur similitudinem praecedenti 
+          <lb ed="#P"/>in capite et in 3o loco 3am quibus sic <unclear>conterminatis</unclear> 
+          <lb ed="#P"/>fit unus color circularis qui manet in capite videntis 
+          <lb ed="#P"/>toto tempore mensuratae circulationem praedictam et ideo 
+          <lb ed="#P"/>apparet videnti quod pars illa sit similis in quocumque situ 
+          <lb ed="#P"/>circulationis ideo in casu illo nullum circulum ignitum vi<lb ed="#P"/>det 
+          <sic>set</sic> tantum similitudinem 
+          <!-- possible break -->
+          <pc type="#pilcrow"/><sic>Set</sic> contra tunc 
+          <lb ed="#P"/>oportet quod talis similitudo in visu foret tantae quan<lb ed="#P"/>titatis 
+          quantae videtur sibi quod est unus circulus extra 
+          <lb ed="#P"/><unclear>videre</unclear> negatur consequentia cuius causa est quia videns colorem 
+          <lb ed="#P"/>extrinsecum per eius speciem sub eodem angelo videt 
+          <lb ed="#P"/>speciem et colorem cuius est et ideo species et color 
+          <lb ed="#P"/>apparent videnti eiusdem quantitatis quia videntur sub 
+          <lb ed="#P"/>eisdem agnulis scilicet aequalibus
+        </p>
+        <p xml:id="rhq-q50-d1e1200">
+          <pc type="#pilcrow"/>Alia conclusio est haec 
+          <lb ed="#P"/>Similitudo naturalis Rei cognitae est eiusdem speciei cum 
+          <lb ed="#P"/>re illa cuius est et haec est opinio <name ref="#RogerBacon">Rogeri ba<lb ed="#P"/>kum</name> 
+          in sua <ref><title>perspectiva</title> distinctione 6 capitulo 3o</ref> probatur haec sic 
+          <lb ed="#P"/><quote xml:id="rhq-q50-Qd1e1220">impossibile est una qualitatem esse naturalem similitudinem al<lb ed="#P"/>terius 
+          a differt specie quia non habemus aliud medium 
+          <lb ed="#P"/>pro statu isto ad probandum quod duae res sunt 
+          <lb ed="#P"/>eiusdem speciei nisi quod una est naturalis similitudo respectu 
+          <lb ed="#P"/>alterius</quote> igitur etc
+        </p>
+        <p xml:id="rhq-q50-d1e1235">
+          <pc type="#pilcrow"/>2o sic albedo visa causat 
+          <lb ed="#P"/>speciem vel igitur est agens univocum et habetur propositum 
+          <lb ed="#P"/>vel aequivoce quod est falsum quia in generatione aequivoca effec<lb ed="#P"/>tus 
+          est dissimilis agenti
+        </p>
+        <p xml:id="rhq-q50-d1e1247">
+          <pc type="#pilcrow"/>Item omne visibile est 
+          <lb ed="#P"/>lux vel color <sic>set</sic> illa species est visibili quia sic 
+          <lb ed="#P"/>videtur ergo est lux vel color non lux quia illa non naturalis 
+          <lb ed="#P"/>similitudo colorum est igitur est colore
+        </p>
+        <p xml:id="rhq-q50-d1e1261">
+          <pc type="#pilcrow"/>Item respiciens 
+          <lb ed="#P"/>attente colorem viridem et subito se vertens 
+          <lb ed="#P"/>ad obscurum adhuc videt colorem viridem 
+          <lb ed="#P"/><sic>set</sic> nullum extra igitur ille color est in vidente et eiusdem 
+          <lb ed="#P"/>speciei cum colore prius viso <pc type="#punctus"/> et idem sentiendum est de 
+          <lb ed="#P"/>specie intelligibile et de re a qua generatur
+        </p>
+        <p xml:id="rhq-q50-d1e1284">
+          <pc type="#pilcrow"/> Item 
+          <lb ed="#P"/>2o <title>de anima</title> si visus haberet colorem in actu non re<lb ed="#P"/>ciperet 
+          colores quia igitur <del rend="expunctuation">non</del> recipit colores 
+          <lb ed="#P"/>non habet colores in actu non tamen negat quin 
+          <lb ed="#P"/>habet in potentia <pc type="#pilcrow"/>propter istas rationes concedit opinans 
+          <lb ed="#P"/>quod tam angelus quam anima est aliquando frigidus aliquando 
+          <lb ed="#P"/>calidus et lapis est cum angelo in caelo et in anima quando 
+          <lb ed="#P"/>cum intelligit lapidem
+        </p>
+        <p xml:id="rhq-q50-d1e1310">
+          <pc type="#pilcrow"/>Et si arguitur contra impossibile 
+          <lb ed="#P"/>est duas formas materiales esse eiusdem speciei cum forma 
+          <lb ed="#P"/>materiali
+        </p>
+        <p xml:id="rhq-q50-d1e1323">
+          Item impossibile est duas formas eiusdem speciei 
+          <lb ed="#P"/>simul esse in eodem subiecto sed duae similitudines quarum 
+          <lb ed="#P"/>una causatur ab una albedine et alia ab alia in 
+          <lb ed="#P"/>eodem occulo sunt etc
+        </p>
+        <p xml:id="rhq-q50-d1e1337">
+          <pc type="#pilcrow"/>Item <quote xml:id="rhq-q50-Qd1e1340" ana="#Aristotle_DeAnima_III_8_a">lapis non est 
+          <lb ed="#P"/>in anima <sic>set</sic> species lapidis</quote>
+        </p>
+        <p xml:id="rhq-q50-d1e1345">
+          <pc type="#pilcrow"/>Item si beatus videret 
+          <lb ed="#P"/>deum mediate specie produceret aliquid eiusdem speciei cum 
+          <lb ed="#P"/>deo 
+        </p>
+        <p xml:id="rhq-q50-d1e1357">
+          <pc type="#pilcrow"/>ad primum dicitur quod forma dicitur in materia tripliciter 
+          <lb ed="#P"/>vel quia illud est indivisibile et per oppositum forma materialis 
+          <lb ed="#P"/>est divisibilis et quaelibet forma divisibilis <pc type="#pilcrow"/> Alio modo quia est in subiecto 
+          materiali et per oppositum materiale dicitur quaelibet perfectio sibi 
+          <lb ed="#P"/>materialis <pc type="#pilcrow"/> 3o modo dicitur forma in materialis quae naturaliter se<lb ed="#P"/>paratur 
+          a naturalia et materiale per oppositum primo modo et 2o 
+          <lb ed="#P"/>forma materialis et immateriali sunt eiusdem speciei <pc type="virgula">/</pc><pc type="virgula">/</pc> 
+          <lb ed="#P"/><pc type="#pilcrow"/>3o modo vel loquimur de forma substantiali vel accidentali 
+          <lb ed="#P"/>primo modo non sunt eiusdem speciei 2o modo sunt quia color 
+          <lb ed="#P"/>in mente angeli etc
+        </p>
+        <p xml:id="rhq-q50-d1e1388">
+          <pc type="#pilcrow"/>Ad 2m concedo quod duae formae 
+          <lb ed="#P"/>possunt simul esse in eodem subiecto
+        </p>
+        <p xml:id="rhq-q50-d1e1395">
+          <pc type="#pilcrow"/>Ad 3m <name ref="#Aristotle">aristoteles</name> ibi 
+          <lb ed="#P"/>vocat speciem lapidis similitudinem accidentis 
+          <lb ed="#P"/>lapidis
+        </p>
+        <p xml:id="rhq-q50-d1e1408">
+          <pc type="#pilcrow"/>ad 4 impossibile est intellectum creatum forma<lb ed="#P"/>re 
+          verbum de deo
+        </p>
+        <p xml:id="rhq-q50-d1e1415">
+          <pc type="#pilcrow"/> Contra primam conclusionem et probo 
+          <lb ed="#P"/>quod non sufficit ad hoc quod anima intelligat solum 
+          <lb ed="#P"/>anima et species <sic>set</sic> requiritur 3a res quae dicitur 
+          intellectio quia fiat quod <name>sortes</name> non intelligat <name>platonem</name> 
+          <lb ed="#P"/>et tamen quod species <name>platonis</name> sit in memoria <name>sortes</name> 
+          <lb ed="#P"/>et per consequens in anima <name>sortes</name> igitur aliqua res requiritur 
+        </p>
+        <p xml:id="rhq-q50-d1e1453">
+          <pc type="#pilcrow"/>Item visu se habente <unclear>universaliter</unclear> ad obiectum in prima parte 
+          <lb ed="#P"/>temporis in casu videt in 2a non <pc type="#punctus"/> posito quod 
+          <lb ed="#P"/>in 2a parte anima fuerit multum intenta circa aliquid 
+          <lb ed="#P"/>cognoscibile ut patet etiam de distractis quaerentibus 
+          <lb ed="#P"/>quod habent primi occulis 
+        </p>
+        <p xml:id="rhq-q50-d1e1470">
+          <pc type="#pilcrow"/>contra ultimam conclusionem 
+          <lb ed="#P"/>sic quando duae qualitates sunt eiusdem speciei et 
+          <lb ed="#P"/>aeque intensae si sunt activae possunt esse inaequalem 
+          <lb ed="#P"/>et aeque intensas operationem <sic>set</sic> calor in igne 
+          <lb ed="#P"/>et eius species sunt huius igitur etc
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
