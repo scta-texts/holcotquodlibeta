@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Quaestio 23 [Balliol 246 Transcription]</title>
+        <title>Quaestio 23 [Pembroke 236 Transcription]</title>
         <author ref="#Holcot">Holcot</author>
         <editor>Jeffrey C. Witt</editor>
         <editor>John Slotemaker</editor>
@@ -13,7 +13,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Quaestio 23 [Balliol 246 Transcription]</title>
+          <title>Quaestio 23 [Pembroke 236 Transcription]</title>
           <date when="2018-01-29">January 29, 2018</date>
         </edition>
       </editionStmt>
@@ -57,148 +57,132 @@
     </front>
     <body>
       <div xml:id="rhq-q23">
-        <head>Quaestio 23 [Balliol 246 Transcription]</head>
-        <head type="question-title">Utrum qualitas suscipiat magis aut minus</head>
-        <p>
-          <!-- balliol as starter, not yet corrected -->
-          Utrum qualitas 
-          suscipiat magis 
-          aut minus
+        <head xml:id="rhq-q23-Hd1e4126">Quaestio 23 [Pembroke 236 Transcription]</head>
+        <head xml:id="rhq-q23-Hd1e4129" type="question-title">Utrum qualitas suscipiat magis aut minus</head>
+        <p xml:id="rhq-q23-d1e4132">
+          <lb ed="#P"/>Utrum qualitas suscipiat magis 
+          <lb ed="#P"/>aut minus <pc type="#punctus"/>
         </p>
-        <p>
-          Respondeo et 
-          dico quod ista propositio qualitas 
-          suscipit magis et minus 
-          est distinguendum secundum sensum compositum 
-          et sensum divisum sensus compositus est inpossibilis 
-          sensus divisus est verus et hoc sit quantum ad 
-          logicam conclusionis quantum ad rem ponit quod 
-          calor habet quandam latitudinem tamen 
-          calorem habere latitudinem potest intelligi 
-          etc uno modo sic quod non habet <unclear>mediates <!-- mediatates --></unclear> distinctas 
-          realiter <choice><orig>sicud</orig><reg>sicut</reg></choice> est de tempore et motu quia hora 
-          et annus non distinguuntur realiter sicut 
-          nec sortes in foro et sortes in theatro 
-          Sed cum dicitur quod duas habet partes quarum 
-          una est dies et alia est annus vel 
-          hora propositiones debent sic intelligi 
-          hora et pars diei et haec res ut est horam 
-          minus divinat quam ut est dies vel annus 
-          vel potest sic exponi diutius est haec 
-          <pb ed="#B" n="204-r"/>
-          <cb ed="#B" n="a"/>
-          propositio vera In ista regione caelum est dies 
-          ergo ista propositio in ista regione caelum est hora 
-          nulla et sic concedendum est quod tunc habent mediatates et tunc 
-          non est alius sensus nisi iste caelum ut est hora 
-          non ita diu durat sicut caelum ut est anno <add place="margin-center">vel</add> 
-          tunc duplum ad annum vel ad horam 
-          et eodem modo est de latitudine caritatis 
-          nam eadem res realiter est latitudo 
-          caritatis habet pars sicut tempus quia eadem 
-          caritas ut est in transmutari dicitur latitudo 
-          et quando transmutatum dicitur quia 
-          et non latitudo
+        <p xml:id="rhq-q23-d1e4141">
+          <pc type="#pilcrow"/>Respondeo propositio est distinguendum 
+          <lb ed="#P"/>secundum compositum et divisum sensus compositus est impossibilis 
+          <lb ed="#P"/>quia nulla qualitas suscipit 
+          <lb ed="#P"/>magis et minus simul <pc type="#punctus"/> sensus divisus 
+          <lb ed="#P"/>est verus <pc type="#punctus"/> hoc quam ad logicam conclusionis <pc type="#punctus"/> quantum 
+          <lb ed="#P"/>ad rem ponit quod calor habet quandam la<lb ed="#P"/>titudinem 
+          cum calorem habere latitudinem potest 
+          <lb ed="#P"/>intelligi dupliciter uno modo sic quia non habet mediatates 
+          <lb ed="#P"/>distinctas realiter sicut est de tempore 
+          <lb ed="#P"/>et motu quia hora et annus non distinguuntur 
+          <lb ed="#P"/>realiter sicut nec sortes in foro et sortes in 
+          <lb ed="#P"/>theatro <sic>set</sic> cum dicitur quod tempus habet partes 
+          <lb ed="#P"/>quarum una est dies et alia est an<lb ed="#P"/>nus 
+          debet sic intelligi hora est pars diei et 
+          <lb ed="#P"/>haec res ut est hora minus durat quam ut 
+          <lb ed="#P"/><sic>ut</sic> est dies aut annus <pc type="#punctus"/> <pc type="#pilcrow"/>vel potest sic 
+          <lb ed="#P"/>exponi diutius est haec propositio vera in ista regi<lb ed="#P"/>one
+          caelum est dies <pc type="#punctus"/> quam ista propositio in eadem 
+          <lb ed="#P"/>caelum est hora nova <pc type="#punctus"/> et sic concedendum est quod 
+          <lb ed="#P"/>tempus habet mediatates et tunc non est alius sensus 
+          <lb ed="#P"/>nisi iste <pc type="#punctus"/> caelum ut est hora non ita diu du<lb ed="#P"/>rat 
+          sicut caelum ut est annus vel tempus duplum 
+          <lb ed="#P"/>ad annum vel horam <pc type="#punctus"/> et eodem modo est de 
+          <lb ed="#P"/>latitudine caliditatis et <unclear>caliditas</unclear> nam eadem res est 
+          <lb ed="#P"/>latitudo caliditatis et <unclear>caliditas</unclear> et latitudo caliditatis 
+          <lb ed="#P"/>habet partes sicut tempus quia eadem caliditas 
+          <lb ed="#P"/>ut est in <unclear>transmutari <!-- looks like transmitari --></unclear> dicitur latitudo et quando 
+          <lb ed="#P"/>transmutatur dicitur caliditas et non latitudo
           <!-- paragraph break here ?? -->
-          alio modo posset concedi 
-          vel intelligi habere mentis distinctam 
-          realiter intensive et istum sensum innuit 
-          et <unclear>negat <!-- why is "gat" raised"; seems like something between "ne" and "gat" should be added --></unclear>
+          <lb ed="#P"/><pc type="#pilcrow"/>alio modo posset habere mediatates distinctas 
+          <lb ed="#P"/>realiter intensive et istum sensum innuit et 
+          <lb ed="#P"/>negat <pc type="#punctus"/>
         </p>
-        <p>
-          <pc type="virgula">//</pc> 3o modo potest intelligi habere 
-          mentis distinctas realiter extensive 
-          2m mentis sibiet sic concedit quod habet 
-          mentis realiter distinctas et tunc est motus 
-          sicut habet ipsum caelum quia latitudo non est nisi 
-          ipsamet qualitas
+        <p xml:id="rhq-q23-d1e4237">
+          <pc type="#pilcrow"/>tertio modo potest intelligi habere 
+          <lb ed="#P"/>mediatates distinctas realiter extensive sed 
+          <lb ed="#P"/>mediatates subiecti et sic concedit quod habet medietates
+          <lb ed="#P"/>realiter distinctas et tempus et motus 
+          <lb ed="#P"/>sicut habet ipsum caelum quia latitudo non est nisi ipsa<lb ed="#P"/>met 
+          caliditas
         </p>
-        <p>
-          <pc type="virgula">//</pc>Respondeo ad primum argumentum 
-          dicit quod si ignis in summo debeat de 
-          aqua generare ignem in summo non est 
-          ymaginandum quod continue in principio 
-          ac communis ignis latitudo qualitatis 
-          inducatur in aliquam debet est ibi una 
-          successiva corruptio aquae et non inducitur 
-          <choice><orig>alico</orig><reg>aliquo</reg></choice> qualitatis ignis nec <choice><orig>alica</orig><reg>aliqua</reg></choice> forma 
-          ignis ante ultimum instans corruptionis aquae 
-          et tunc subito inducetur summus ignis 
-          et summus calor ignis
+        <p xml:id="rhq-q23-d1e4255">
+          <pc type="#pilcrow"/>Item respondendo ad primum argumentum quod 
+          <lb ed="#P"/>si ignis in summo debeat de aqua gener<lb ed="#P"/>are 
+          ignem in summo non est ymaginandum 
+          <lb ed="#P"/>quod continue in principio actionis ignis latitudo 
+          <lb ed="#P"/>caliditatis inducatur in aquam <sic>set</sic> est ibi 
+          <lb ed="#P"/>una successiva <sic>coruptio</sic> aquae <unclear>si</unclear> non inducitur 
+          <lb ed="#P"/>aliqua caliditas ignis necque forma ignis ante ul<lb ed="#P"/>timum 
+          instans <sic>coruptionis</sic> aquae et tunc subito 
+          <lb ed="#P"/>inducetur summus ignis et summus calor
         </p>
-        <p>
-          <pc type="virgula">//</pc>Item in 
-          solvendo secundum principale ubi inquit 
-          utrum contra simul quo extendantur 
-          in eodem subiecto tenet quod non propter multas 
-          rationes dicens quod quando ex aqua generatur 
-          ignis non est ymaginandum quod subito 
-          corrumpatur et deinde generetur ignis 
-          et intendatur successive nec quod per mediate 
-          tempus in quo transmutabitur <unclear>uc?ati?a</unclear>
-          aquae corrumpatur tota a quo successive 
-          et in alia mediate intendatur forma 
-          ignis successive valet successive corrpetur 
-          aqua et subito generabitur forma ignis 
-          et eius qualitas ita quod non generabitur qualitas 
-          ignis ante quam tota frigiditas 
-          corrumpatur illa tamen caliditas per quam 
-          aqua dicitur calida est eadem res cum 
-          <cb ed="#B" n="b"/> <!-- 204rb -->
-          frigiditate aquae et frigiditas aquae 
-          et simul est caliditas accidentalis bene non omnis caliditas 
-          usnt eiusdem speciei cum frigiditatis 
-          aquae et ideo aqua caleditas <unclear>redit</unclear> ad 
-          rrigiditatem sine agente extrinseco 
-          unde proprie non <unclear>alteras <!-- possible correction --></unclear> se quia alteratio est 
-          proprie remissio <sic>fformae <!-- why double ff --></sic> contrariae formae 
-          agentis unde illa caliditas quando fit debilior 
-          caliditas non remittitur valet intenditur 
-          et causa est quia illa caliditas est essentialiter frigiditas 
-          et accidentis calor
+        <p xml:id="rhq-q23-d1e4294">
+          <pb ed="#P" n="155-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P"/>Item in solvendo 2m principale ubi inquirit 
+          <lb ed="#P"/>utrum contraria simul coextendantur in eodem 
+          <lb ed="#P"/>subiecto tenet quod non propter multas rationes dicens 
+          <lb ed="#P"/>quod quando ex aliqua generatur ignis non est ymaginandum 
+          <lb ed="#P"/>quod subito <sic>corumpatur</sic> et deinde generetur ignis 
+          <lb ed="#P"/>et intendatur successive nec quod per <unclear>medem</unclear> 
+          <lb ed="#P"/>tempus in quo transmutabitur <unclear>n?ra</unclear> aliquae corrum<lb ed="#P"/>patur 
+          tota aliqua successive et in alia mediate inten<lb ed="#P"/>datur 
+          forma ignis successive <sic>set</sic> successive 
+          <lb ed="#P"/>corrumpetur aqua et subito generabitur forma 
+          <lb ed="#P"/>ignis et eius caliditas ita quod non generatur 
+          <lb ed="#P"/>caliditas antequam tota frigiditas corrumpatur 
+          <lb ed="#P"/>illa tamen caliditas per quam aqua dicitur calida est 
+          <lb ed="#P"/>eadem res cum frigiditate aquae et frigiditas 
+          <lb ed="#P"/>remissa aquae est caliditas accidentalis unde non 
+          <lb ed="#P"/>sunt calores eiusdem speciei quia caliditas 
+          <lb ed="#P"/>accidentalis aquae est alterius speciei quam calor 
+          <lb ed="#P"/>ignis et eiusdem cum frigide aquae et ideo 
+          <lb ed="#P"/>aqua calefacta redit ad frigiditatem sine agen<lb ed="#P"/>te 
+          extrinseco unde proprie non alterat se quia 
+          <lb ed="#P"/>alteratio est proprie remissio formae contrariae 
+          <lb ed="#P"/>formae agentis unde illa qualitas quando fit 
+          <lb ed="#P"/>debelior causalitas nonremittitur <sic>set</sic> neccesse 
+          <lb ed="#P"/>dicitur et causa est quia illa caliditas est essentialiter fri<lb ed="#P"/>giditas 
+          et accidentaliter calor
         </p>
-        <p>
-          Item 2m 
-          eundem corruptio rei naturales non est 
-          contraria generationem suae per eosdem 
-          gradus valet generatio ignis ex aliqua 
-          erit ex contraria corruptione formae 
-          aquae et suae frigiditate et generatio 
-          aquae ex illo erit ex successiva corruptione 
-          aquae in latitudine 
-          ignis et suae caliditas et subito generabitur 
-          aqua et sua frigiditatis etc 
-          salvat quod est accipere primum instans rei <unclear>perura?tis</unclear> 
-          in esset et ita ultimum et qualitas motus 
-          denotatur a posteriori pationem secundum 
-          ymaginationem conceditur 8 <title>physicorum</title> commento 69 
-          quod caliditas in aqua sic frigiditur 
-          probat sic per signum quia caliditas in 
-          aqua remittat caliditatem <unclear>inferio<!--??--></unclear> 
-          aeque <unclear>calidendo</unclear> cum aqua inconveniens est 
-          antecedens quod <choice><orig>alica</orig><reg>aliqua</reg></choice> caliditas remittat 
-          caliditatem eiusdem speciei si dicatur 
-          quod calitatis in aqua est essentialiter frigiditas 
-          quare non repraesentat sensum frigiditatem 
-          secundum qualiditatem Respondet quod sicut album 
-          positum a remotis per intentionem remissam 
-          reputat visui ita frigiditas 
-          aquae multum remissa reprasentat 
-          caliditatem 
+        <p xml:id="rhq-q23-d1e4377">
+          <pc type="#pilcrow"/>Item secundum
+          <lb ed="#P"/>eundem corruptio rei naturales non est contraria ge<lb ed="#P"/>nerationi 
+          suae per eosdem gradus <sic>set</sic> ge<lb ed="#P"/>neratio 
+          ignis ex aqua erit ex contraria 
+          <lb ed="#P"/>corruptione formae aquae et suae frigiditate 
+          <lb ed="#P"/>et generatio aquae ex illa erit ex successiva 
+          <lb ed="#P"/>corruptione in latitudine ignis et suae caliditas 
+          <lb ed="#P"/>et subito generabitur aqua et sua frigiditatis 
+          <lb ed="#P"/>et sic salvat quod est accipere primum instans rei per<lb ed="#P"/>maneret 
+          in esse et ita ultimum et qualitas mo<lb ed="#P"/>tus 
+          denotatur a posteriori passione secundum 
+          <lb ed="#P"/>ymaginationem conceditur 8 <title>physicorum</title> commento 69 
+          <lb ed="#P"/><pc type="#pilcrow"/>quod caliditas in aqua sit essentialiter frigiditas 
+          <lb ed="#P"/>probat sic per signum quia caliditas in aqua remit<lb ed="#P"/>tat 
+          <lb ed="#P"/>caliditatem aeque calido cum aqua <sic>set</sic> consequentia 
+          <lb ed="#P"/>non est quod <unclear>alia</unclear> caliditas remittit caliditatem
+          <lb ed="#P"/>eiusdem speciei <pc type="#punctus"/> <pc type="#pilcrow"/> Si autem dicitur quod si caliditas 
+          <lb ed="#P"/>in aqua est essentialiter frigiditas quare 
+          <lb ed="#P"/>non repraesentat sensum frigiditatem <sic>set</sic> ca<lb ed="#P"/>liditatem 
+          respondet quod sicut album <unclear>positum</unclear> a remotis 
+          <lb ed="#P"/>per intensionem remissam repraesentat vi<lb ed="#P"/>sui 
+          nigredinem vel <unclear>co?ie</unclear> medium ita fri<lb ed="#P"/>giditas 
+          aquae multum remissa repraesentat 
+          <lb ed="#P"/>caliditatem
         </p>
-        <p>
-          <pc type="virgula">//</pc>hic est notandum quod idem 
-          calor potest esse intentior quam eam est 
-          sine additione alicuius quia faciat deus 
-          duas mediates calorum simul vel coextendi 
-          in eodem statu igitur est intentior in 2lo 
-          quam prius sed conventi hoc arguitur sic quia sit 
-          calor christi format intentior quam calor 
-          alicuius alterius quia mediatas est in eodem 
-          statu et medietas illarum et sic in infinitum dicitur quod 
-          non est ad propositum quia calor christi in sacramento non
-          <pb ed="#B" n="204-v"/>
-          <cb ed="#B" n="a"/>est ibi localiter nec situaliter
+        <p xml:id="rhq-q23-d1e4451">
+          <pc type="#pilcrow"/>Nota quod idem calor potest esse in<lb ed="#P"/>tentior 
+          quam iam est sine additione alicuius 
+          <lb ed="#P"/>quia faciat deus duas medietates calorum 
+          <lb ed="#P"/>simul coextendi in eodem situ <pc type="#punctus"/> igitur est duplo 
+          <lb ed="#P"/>intentior quam prius <pc type="#pilcrow"/><sic>Set</sic> contra hoc non arguit 
+          <lb ed="#P"/>quia sic calor christi foret intentior quam 
+          <lb ed="#P"/>calor alicuius alterius quia eius medietas est 
+          <lb ed="#P"/>in eodem situ et medietas illarum et sic in 
+          <lb ed="#P"/>infinitum <pc type="#pilcrow"/>dicitur quod non est ad propositum quia calor 
+          <lb ed="#P"/>christi in sacramento non est ibi localiter nec 
+          <lb ed="#P"/>situaliter ideo etc
         </p>
       </div>
     </body>

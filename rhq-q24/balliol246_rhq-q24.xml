@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,24 +44,21 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#B" n="204-v"/><cb ed="#B" n="a"/>
       </div>
     </front>
     <body>
       <div xml:id="rhq-q24">
-        <head>Quaestio 24 [Balliol 246 Transcription]</head>
-        <head type="question-title">Utrum contraria possunt esse in eodem subiecto coextensa</head>
-        <p>
+        <head xml:id="rhq-q24-Hd1e4126">Quaestio 24 [Balliol 246 Transcription]</head>
+        <head xml:id="rhq-q24-Hd1e4129" type="question-title">Utrum contraria possunt esse in eodem subiecto coextensa</head>
+        <p xml:id="rhq-q24-d1e4132">
           <lb ed="#B"/>Utrum contra pos<lb ed="#B"/>sunt 
           esse in eodem 
           <lb ed="#B"/>subiecto <sic>coextenssa</sic>
         </p>
-        <p>
+        <p xml:id="rhq-q24-d1e4144">
           quod sic 
           <lb ed="#B"/>aliquod contrarium potest remitti 
           <lb ed="#B"/>valet unum non remittitur 
@@ -83,7 +77,7 @@
           <lb ed="#B"/><sic>fforent</sic> contrariae ibi elementa contraria non forent 
           <lb ed="#B"/>ibi consequens est falsum
         </p>
-        <p>
+        <p xml:id="rhq-q24-d1e4195">
           <pc type="virgula">//</pc>Respondendum ad hoc quod 
           <lb ed="#B"/>remitti per ad mixtionem contrarii potest etc 
           <lb ed="#B"/>intelligi vel quod suum contrarium secum coexten<lb ed="#B"/>datur 

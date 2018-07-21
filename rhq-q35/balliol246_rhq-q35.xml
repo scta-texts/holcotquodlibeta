@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,36 +44,33 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#B" n="211-r"/><cb ed="#B" n="b"/>
       </div>
     </front>
     <body>
       <div xml:id="rhq-q35">
-        <head>Quaestio 35 [Balliol 246 Transcription]</head>
-        <head type="question-title">Utrum respectu dilectionis gratuitae caritas habeat efficaciam in mente.</head>
-        <p>
+        <head xml:id="rhq-q35-Hd1e4126">Quaestio 35 [Balliol 246 Transcription]</head>
+        <head xml:id="rhq-q35-Hd1e4129" type="question-title">Utrum respectu dilectionis gratuitae caritas habeat efficaciam in mente.</head>
+        <p xml:id="rhq-q35-d1e4132">
           <lb ed="#B"/>Utrum respectu dilectionis 
           <lb ed="#B"/>gratuitae caritas habeat 
           <lb ed="#B"/>efficientiam in mente
         </p>
-        <p>
+        <p xml:id="rhq-q35-d1e4141">
           quod non 
           <lb ed="#B"/>cum sic quia habet dilectionem dei 
           <lb ed="#B"/>naturalis et post infundat deus 
           <lb ed="#B"/>illi caritatem tunc illa est meritoria et gra<lb ed="#B"/>tuita 
           et causalitas nihil egit gratia
         </p>
-        <p>
+        <p xml:id="rhq-q35-d1e4152">
           ad oppositum arguitur 
           <lb ed="#B"/>sic quia tunc habens caritatem et non habens 
           <lb ed="#B"/>possunt aequaliter reprimere illecebras
         </p>
-        <p>
+        <p xml:id="rhq-q35-d1e4160">
           ad quaestionem 
           <lb ed="#B"/>dicitur quod non ad rationem concedo conclusionem <unclear>licet</unclear> 
           <lb ed="#B"/>non aequae meritorie nec doctorum dicunt 

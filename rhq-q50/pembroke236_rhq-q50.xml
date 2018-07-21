@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Quaestio 50 [Balliol 246 Transcription]</title>
+        <title>Quaestio 50 [Pembroke 236 Transcription]</title>
         <author ref="#Holcot">Holcot</author>
         <editor>Jeffrey C. Witt</editor>
         <editor>John Slotemaker</editor>
@@ -10,7 +10,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Quaestio 50 [Balliol 246 Transcription]</title>
+          <title>Quaestio 50 [Pembroke 236 Transcription]</title>
           <date when="2018-06-15">June 6, 2018</date>
         </edition>
       </editionStmt>
@@ -51,7 +51,7 @@
     </front>
     <body>
       <div xml:id="rhq-q50">
-        <head xml:id="rhq-q50-Hd1e105">Quaestio 50 [Pembroke 2236 Transcription]</head>
+        <head xml:id="rhq-q50-Hd1e105">Quaestio 50 [Pembroke 236 Transcription]</head>
         <head xml:id="rhq-q50-Hd1e108" type="question-title">Utrum aliqua propositio possit componi ex intentionibus et speciebus in anima naturaliter significantibus rem extra</head>
         <p xml:id="rhq-q50-d1e111">
           <lb ed="#P"/>Utrum aliqua propositio possit componi 

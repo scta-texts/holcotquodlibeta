@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 51 [Pembroke 236 Transcription]</title>
+        <author ref="#Holcot">Holcot</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>John Slotemaker</editor>
+        <editor>Hester Gelber</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 50 [Pembroke 236 Transcription]</title>
+          <date when="2018-07-21">June 21, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="pembroke236">Pembroke 236</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-07-21" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#P" n="160-r"/><cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rhq-q51">
+        <head xml:id="rhq-q51-Hd1e105">Quaestio 51 [Balliol 246 Transcription]</head>
+        <head xml:id="rhq-q51-Hd1e108" type="question-title">Utrum doctrina venerabilis Anselmi rationabiliter debeat reprobari</head>
+        <p xml:id="rhq-q51-d1e111">
+          <lb ed="#P"/>Utrum doctrina <name ref="#Anselm">venerabilis anselmi</name> 
+          <lb ed="#P"/>rationabiliter debeat reprobari
+        </p>
+        <p xml:id="rhq-q51-d1e122">
+          quod sic 
+          <lb ed="#P"/>quia est erronea <pc type="#punctus"/> ut patet 8 de 
+          <lb ed="#P"/>libero arbitrio ubi docet quod rectitudinem voluntatis 
+          <lb ed="#P"/>deus non potest auferre a voluntate et tamen tenet 
+          <lb ed="#P"/>quod illa est alia res a voluntate quod est erroneum 
+          <lb ed="#P"/>quia omnem rem distinctam totaliter ab alia potest deus 
+          <lb ed="#P"/>separe ergo etc <pc type="#pilcrow"/>dicitur quod distinguitur a voluntate
+        </p>
+        <p xml:id="rhq-q51-d1e138">
+          <lb ed="#P"/><pc type="#pilcrow"/>contra <unclear>arguit <!-- gelber has "aut" --></unclear> ergo est effective a voluntate vel non si sic 
+          <lb ed="#P"/>contra non est in potestate voluntatis causare in se rectitudinem 
+          <lb ed="#P"/><sic>set</sic> servare ut dicit <pc type="#pilcrow"/>etiam affectiones 
+          <lb ed="#P"/>creatae sunt a deo <title>de concordia</title> capitulo 17 ergo etc 
+          <pb ed="#P" n="160-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P"/><pc type="#pilcrow"/>Similiter si causat rectitudinem aut volendo aut non si volendo 
+          <lb ed="#P"/>et nullus vult rectitudinem nisi habens rectitudinem ergo prius 
+          <lb ed="#P"/>habet quam causet et haec est ratio eiusdem <title>de concordia</title> 
+          <lb ed="#P"/>capitulo 13 <pc type="#punctus"/> Si rectitudo non est effective a voluntate 
+          <lb ed="#P"/>ergo non est imputandum libero arbitrio quod est contra <name>augustinum <!-- gelber has "augustinus" --></name> primo <title>re<lb ed="#P"/>tractionum <!-- gelber: retractione --></title> 
+          nono capitulo <pc type="#pilcrow"/> Dicitur quod dependet a voluntate 
+          <lb ed="#P"/>quantum conservationem non quantum ad productionem <pc type="virgula">//</pc> 
+          <lb ed="#P"/><pc type="#pilcrow"/>Contra igitur potestate peccatorum est producere contritionem et 
+          <lb ed="#P"/>omnis contritio est rectitudo voluntatis ergo etc <pc type="#punctus"/> <pc type="#pilcrow"/>Confirmatur 
+          <lb ed="#P"/>quia rectitudo voluntatis est velle quod deus vult eam vel<lb ed="#P"/>le 
+          de libero arbitrio capitulo 8 <sic>set</sic> tale velle est effective 
+          <lb ed="#P"/>a voluntate ergo etc
+        </p>
+        <p xml:id="rhq-q51-d1e195">
+          <pc type="#pilcrow"/> Item omne quod homo habet si illud 
+          <lb ed="#P"/>vult habere et non habet nisi velit habere 
+          <lb ed="#P"/>habet a voluntate ut videtur Rectitudo est huius <unclear>generis <!-- abbreviation is basically "g"; review instances of ergo/igitur to see if they shoudl be "generis" --></unclear> etc
+        </p>
+        <p xml:id="rhq-q51-d1e207">
+          <lb ed="#P"/><pc type="#pilcrow"/>Item 2o <title>cur deus homo</title> capitulo 14 ponit 5 propositiones 
+          <lb ed="#P"/>prima est facere contra dei voluntatem etiam quod putamus laevis<lb ed="#P"/>simum 
+          mortale est tantae gravitatis quod fieri non de<lb ed="#P"/>beret 
+          pro <unclear>infinitis <!-- gelber: visitatis --></unclear> mundis salvandis <pc type="#pilcrow"/>Sed 
+          <lb ed="#P"/>contra tunc quodlibet peccatum est infinite malitiae intentione 
+          <lb ed="#P"/>quia si finite tunc solo aliquorum modorum foret 
+          <lb ed="#P"/>ita bona sicut illud foret malum <!-- gelber: malit ? --> <pc type="#punctus"/>
+        </p>
+        <p xml:id="rhq-q51-d1e239">
+          <pc type="#pilcrow"/>2a propositio 
+          <lb ed="#P"/>quod minima laesio christi esset malum quam omnia peccata 
+          <lb ed="#P"/>extra personam christi contra tunc interfectio christi non fuisset 
+          <lb ed="#P"/>magis mala quam minima laesio <pc type="#punctus"/>  
+        </p>
+        <p xml:id="rhq-q51-d1e251">
+          <pc type="#pilcrow"/>3a vita 
+          <lb ed="#P"/>christi fuit magis bona quam omnia peccata sunt 
+          <lb ed="#P"/>mala <pc type="#punctus"/> <!-- possible break point --> <pc type="#pilcrow"/>contra tunc fuit magis bona quam 
+          <lb ed="#P"/><sic>quam</sic> eius interemptio consequens contra eum quia omne bonum 
+          <lb ed="#P"/>tam bonum est quam mala est destructio <pc type="#punctus"/> 2o 
+          <lb ed="#P"/><title>cur deus homo</title> capitulo 14 et tam malum fuit eum occi<lb ed="#P"/>dere 
+          quam bonam fuit eius vitam 
+        </p>
+        <p xml:id="rhq-q51-d1e275">
+          <pc type="#pilcrow"/>Item vi<lb ed="#P"/>ta 
+          christi fuit sufficiens satisfactio pro peccato ergo fuit 
+          <lb ed="#P"/>bonum infinitum consequentia probatur per illud primo <title>cur deus homo</title> capitulo 21 
+          <lb ed="#P"/>numquam satisfacit nisi <sic>reddas</sic> aliquid maius quam <unclear>sic <!-- gelber: sit --></unclear> 
+          <lb ed="#P"/>illud pro quo peccatum facere non debueras sed 
+          <lb ed="#P"/>pro nullo bono finito deberet homo peccare ut dicit 
+          prima propositio ergo etc
+        </p>
+        <p xml:id="rhq-q51-d1e299">
+          4 omne bonum tam bonum 
+          <lb ed="#P"/>est quam mala est eius destructio <pc type="#punctus"/>
+        </p>
+        <p xml:id="rhq-q51-d1e309">
+          <pc type="#pilcrow"/>Contra prae<lb ed="#P"/>cipiat 
+          deus <name>sorti</name> quod non destruat istam festu<lb ed="#P"/>cam 
+          sub pena peccati mortalis et quod non occidat 
+          <lb ed="#P"/>leonem sub pena peccati venialis et faciat contra utrumque 
+          <lb ed="#P"/>tunc festuca est maioris bonitatis quam leo 
+          <lb ed="#P"/>quia eius destructio est peior <pc type="#punctus"/>
+        </p>
+        <p xml:id="rhq-q51-d1e326">
+          5 vita corporis 
+          <lb ed="#P"/>christi est magis amabilis quam omnia peccata sunt 
+          <lb ed="#P"/>odibilia <pc type="#pilcrow"/>Contra tantum primae est amabilis est aequa quia 
+          <lb ed="#P"/>amando deum odit peccatum et odiendo peccatum 
+          <lb ed="#P"/>amat deum <pc type="#punctus"/>
+        </p>
+        <p xml:id="rhq-q51-d1e340">
+          <pc type="#pilcrow"/>Item si sic et constat quod nullus 
+          <lb ed="#P"/>debuit eum plus amasse quam ipse se ama<lb ed="#P"/>vit 
+          ergo ille debuit eum plus amasse quam 
+          <lb ed="#P"/>odisse peccatum ergo non debuit illam vitam 
+          <lb ed="#P"/>dedisse pro satisfactione peccati <pc type="#punctus"/> 
+        </p> 
+        <p xml:id="rhq-q51-d1e354">
+          <pc type="#pilcrow"/>Item <title>proslogion</title> capitulo 25 <pc type="#punctus"/>
+        </p>
+        <p xml:id="rhq-q51-d1e363">
+          <pc type="#pilcrow"/>Item dicit de beata virgine quod fuit concepta et 
+          <lb ed="#P"/>nata in originali peccato <pc type="#punctus"/> 2o <title>cur deus homo</title> capitulo 16 <pc type="#pilcrow"/>Item 
+          <lb ed="#P"/>probat quod deus non potest tollere rectitudinem a voluntate quia 
+          <lb ed="#P"/>vel volendo vel nolendo ut patet nec volendo 
+          <lb ed="#P"/>quia si sic vult quod faciat et a cuius voluntate 
+          <lb ed="#P"/>vult auferre rectitudinem non vult eam serva<lb ed="#P"/>re 
+          rectitudinem <sic>set</sic> servare rectitudinem est velle sicut 
+          <lb ed="#P"/>deus vult eam velle ergo si deus rectitudinem tollit 
+          <lb ed="#P"/>a voluntate non vult eam velle quod vult eam 
+          <lb ed="#P"/>velle <pc type="#punctus"/>
+        </p>
+        <p xml:id="rhq-q51-d1e387">
+          <pc type="#pilcrow"/>Set contra hoc quia diabolus vult sicut 
+          <lb ed="#P"/>deus vult eum velle quia deus scit consequentiam esse 
+          <lb ed="#P"/>bonam diabolus est obstinatus in malo igitur vult iniuste 
+          <lb ed="#P"/>et deus vult antecedens et consequentiam esse bonam <pc type="#punctus"/> <unclear>igitur <!-- gelber: ergo --></unclear> sequitur 
+          <lb ed="#P"/>quod vult consequens <pc type="#punctus"/>
+        </p>
+        <p xml:id="rhq-q51-d1e401">
+          <lb ed="#P"/>Item si nulla voluntas foret 
+          <cb ed="#P" n="b"/>
+          <lb ed="#P"/>recta nisi quia vellet sicut deus vult eam velle 
+          <lb ed="#P"/>sequitur quod in christo fuisset aliqua non recta quando dixit 
+          <lb ed="#P"/><title>matthaeus</title> 26 <quote xml:id="rhq-q51-Qd1e412" ana="#mt26_39">non sicut ego volo</quote> etc 
+        </p>
+        <p xml:id="rhq-q51-d1e421">
+          <pc type="#pilcrow"/>Item contra illam 
+          <lb ed="#P"/>formam <name>anselmi</name> quia quando deus aufert gratiam aut 
+          <lb ed="#P"/>vult eum non habere gratiam aut non vult si 
+          <lb ed="#P"/>vult eum etc igitur etc pro tunc non est debitor gra<lb ed="#P"/>tiae <pc type="#punctus"/> 
+          <pc type="#pilcrow"/>Contra praecipit ei semper habere gratiam 
+          <lb ed="#P"/>Si vult eam habere igitur non aufert <pc type="#punctus"/> <pc type="#pilcrow"/>Ad illam 
+          <lb ed="#P"/>propositionem de rectitudine voluntatis intelligit quod deus non potest 
+          <lb ed="#P"/>illam separare a voluntate habente gratiam ipsa in vita 
+          <lb ed="#P"/>de potentia ordinata <pc type="virgula">//</pc>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

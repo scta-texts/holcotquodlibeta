@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,24 +44,21 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#B" n="203-v"/><cb ed="#B" n="b"/>
       </div>
     </front>
     <body>
       <div xml:id="rhq-q23">
-        <head>Quaestio 23 [Balliol 246 Transcription]</head>
-        <head type="question-title">Utrum qualitas suscipiat magis aut minus</head>
-        <p>
+        <head xml:id="rhq-q23-Hd1e4126">Quaestio 23 [Balliol 246 Transcription]</head>
+        <head xml:id="rhq-q23-Hd1e4129" type="question-title">Utrum qualitas suscipiat magis aut minus</head>
+        <p xml:id="rhq-q23-d1e4132">
           <lb ed="#B"/>Utrum qualitas 
           <lb ed="#B"/>suscipiat magis 
           <lb ed="#B"/>aut minus
         </p>
-        <p>
+        <p xml:id="rhq-q23-d1e4141">
           Respondeo et 
           <lb ed="#B"/>dico quod ista propositio qualitas 
           <lb ed="#B"/>suscipit magis et minus 
@@ -104,7 +98,7 @@
           <lb ed="#B"/>realiter intensive et istum sensum innuit 
           <lb ed="#B"/>et <unclear>negat <!-- why is "gat" raised"; seems like something between "ne" and "gat" should be added --></unclear>
         </p>
-        <p>
+        <p xml:id="rhq-q23-d1e4237">
           <pc type="virgula">//</pc> 3o modo potest intelligi habere 
           <lb ed="#B"/>mentis distinctas realiter extensive 
           <lb ed="#B"/>2m mentis sibiet sic concedit quod habet 
@@ -112,7 +106,7 @@
           <lb ed="#B"/>sicut habet ipsum caelum quia latitudo non est nisi 
           <lb ed="#B"/>ipsamet qualitas
         </p>
-        <p>
+        <p xml:id="rhq-q23-d1e4255">
           <pc type="virgula">//</pc>Respondeo ad primum argumentum 
           <lb ed="#B"/>dicit quod si ignis in summo debeat de 
           <lb ed="#B"/>aqua generare ignem in summo non est 
@@ -125,7 +119,7 @@
           <lb ed="#B"/>et tunc subito inducetur summus ignis 
           <lb ed="#B"/>et summus calor ignis
         </p>
-        <p>
+        <p xml:id="rhq-q23-d1e4294">
           <pc type="virgula">//</pc>Item in 
           <lb ed="#B"/>solvendo secundum principale ubi inquit 
           <lb ed="#B"/>utrum contra simul quo extendantur 
@@ -156,7 +150,7 @@
           <lb ed="#B"/>et causa est quia illa caliditas est essentialiter fri<lb ed="#B"/>giditas 
           et accidentis calor
         </p>
-        <p>
+        <p xml:id="rhq-q23-d1e4377">
           Item 2m 
           <lb ed="#B"/>eundem corruptio rei naturales non est 
           <lb ed="#B"/>contraria generationem suae per eosdem 
@@ -185,7 +179,7 @@
           <lb ed="#B"/>aquae multum remissa reprasentat 
           <lb ed="#B"/>caliditatem 
         </p>
-        <p>
+        <p xml:id="rhq-q23-d1e4451">
           <pc type="virgula">//</pc>hic est notandum quod idem 
           <lb ed="#B"/>calor potest esse intentior quam eam est 
           <lb ed="#B"/>sine additione alicuius quia faciat deus 

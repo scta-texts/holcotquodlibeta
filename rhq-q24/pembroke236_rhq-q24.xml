@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 24 [Pembroke 236 Transcription]</title>
+        <author ref="#Holcot">Holcot</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>John Slotemaker</editor>
+        <editor>Hester Gelber</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 24 [Pembroke 236 Transcription]</title>
+          <date when="2018-07-21">June 21, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="pembroke236">Pembroke 236</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-07-21" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#P" n="155-r"/><cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="rhq-q24">
+        <head xml:id="rhq-q24-Hd1e4126">Quaestio 24 [Balliol 246 Transcription]</head>
+        <head xml:id="rhq-q24-Hd1e4129" type="question-title">
+          Utrum contraria possunt esse in eodem subiecto coextensa
+        </head>
+        <p xml:id="rhq-q24-d1e4132">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P"/>Utrum contraria possunt esse 
+          <lb ed="#P"/>in eodem subiecto coextensa
+        </p>
+        <p xml:id="rhq-q24-d1e4144">
+          quod sic 
+          <lb ed="#P"/>aliquod contrarium potest remitti <sic>set</sic> 
+          <lb ed="#P"/>unum non remittitur nisi propter in<lb ed="#P"/>tentionem 
+          alterius in eodem subiecto igitur 
+          <lb ed="#P"/>minor probatur per <name>commentatorem</name> 9 physicorum commento 45 ubi dicit 
+          <lb ed="#P"/>quod <unclear>divinicum</unclear> in omni est propter admixtionem 
+          <lb ed="#P"/>sui contrarii et idem commento 19 eiusdem et multis 
+          <lb ed="#P"/>quorum eiusdem <pc type="#punctus"/> et sic in omni mixto est unum 
+          <lb ed="#P"/>elementum praedominans cui attribuitur forma et 
+          <lb ed="#P"/>aliud cui praedominatur sicut patet 10 <title>metaphysciae</title> commento 
+          <lb ed="#P"/><unclear>23</unclear> et primo <title>de caelo</title> commento 7 ubi frequenter habetur 
+          <lb ed="#P"/>quod omne mixtum moritur ad modum elementi <unclear>dominantis</unclear> 
+          <lb ed="#P"/>igitur in omne mixto sunt elementa contraria et 
+          <lb ed="#P"/>duae qualitates contrariae quia nisi qualitates contrariae forent 
+          <lb ed="#P"/>ibi <pc type="#punctus"/> elementa contraria non forent ibi consequens est falsum
+        </p>
+        <p xml:id="rhq-q24-d1e4195">
+          <lb ed="#P"/><pc type="#pilcrow"/>Respondendum ad hoc quod remitti per admixtio<lb ed="#P"/>nem 
+          contrarii potest dupliciter intelligi vel quod suum 
+          <lb ed="#P"/>contrarium secum coextendatur in eadem materia et 
+          <lb ed="#P"/>hoc est in possibile vel quod sit mixtio contrarii agentis 
+          <lb ed="#P"/>in passum et sic concedo quod omne quod fit minus 
+          <lb ed="#P"/>fit minus per admixtionem sui contrarii per 
+          <lb ed="#P"/>quod patet ad primum <pc type="#pilcrow"/>Ad 2m dicitur quod nullum elementum est pars 
+          <lb ed="#P"/>qualitativa mixti <sic>set</sic> solum quantitativa et quodlibet 
+          <lb ed="#P"/>elementum sic remissum per mixtionem sui contrarii 
+          <lb ed="#P"/>est corpus mixtum et ideo quaelibet pars mixti est 
+          <lb ed="#P"/>mixta unde quando aliquid componitur ex duobus contra<lb ed="#P"/>riis 
+          <unclear>transi?</unclear> secundum se <unclear>sola</unclear> tunc quaelibet pars est 
+          <lb ed="#P"/>remissa et ad intellectum <name ref="#Aristotle">aristotelis</name> nec ex possibile aliquid 
+          <lb ed="#P"/>mixtum componi ex contrariis essentialiter et ad <name>commentatorem</name> 
+          <lb ed="#P"/>commento 23o quod intelligit per impossibile difficile valde 
+          <lb ed="#P"/>et <name ref="#Galen">galienus</name> intellexit per possibile facile etc
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

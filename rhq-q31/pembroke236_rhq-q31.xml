@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Quaestio 31 [Balliol 246 Transcription]</title>
+        <title>Quaestio 31 [Pembroke 236 Transcription]</title>
         <author ref="#Holcot">Holcot</author>
         <editor>Jeffrey C. Witt</editor>
         <editor>John Slotemaker</editor>
@@ -10,8 +10,8 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Quaestio 31 [Balliol 246 Transcription]</title>
-          <date when="2018-05-31">May 31, 2018</date>
+          <title>Quaestio 31 [Pembroke 236 Transcription]</title>
+          <date when="2018-07-21">June 21, 2018</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -22,7 +22,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="B" n="balliol246">Balliol 246</witness>
+          <witness xml:id="P" n="pembroke236">Pembroke 236</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -36,7 +36,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2018-05-31" who="#JW" status="draft" n="0.0.0">
+        <change when="2018-07-21" who="#JW" status="draft" n="0.0.0">
           <p>Created file for the first time.</p>
         </change>
       </listChange>
@@ -46,7 +46,7 @@
     <front>
       
       <div xml:id="starts-on">
-        <pb ed="#B" n="210-v"/><cb ed="#B" n="a"/>
+        <pb ed="#P" n="156-v"/><cb ed="#P" n="a"/>
       </div>
     </front>
     <body>
@@ -54,23 +54,22 @@
         <head xml:id="rhq-q31-Hd1e4126">Quaestio 31 [Balliol 246 Transcription]</head>
         <head xml:id="rhq-q31-Hd1e4129" type="question-title">Utrum gratuite diligens deum plus se possit pro eadem mensura mereri et demereri</head>
         <p xml:id="rhq-q31-d1e4132">
-          <lb ed="#B"/>Utrum gratuite 
-          <lb ed="#B"/>diligens deum plus se possit 
-          <lb ed="#B"/>pro eadem mensura mereri et 
-          <lb ed="#B"/>demereri
+          <lb ed="#P"/>Utrum gratuite diligens deum plus 
+          <lb ed="#P"/>se possit pro eadem mensura mere<lb ed="#P"/>ri 
+          et demereri
         </p>
         <p xml:id="rhq-q31-d1e4143">
-          quod non arguitur sic quia 
-          <lb ed="#B"/>opposita non sunt eidem ergo
+          quod non quia opposita 
+          <lb ed="#P"/>non insunt eidem <pc type="#punctus"/>
         </p>
         <p xml:id="rhq-q31-d1e4148">
-          ad 
-          <lb ed="#B"/>oppositum arguitur sic quia qui meretur vitam aeternam 
-          <lb ed="#B"/>meretur et quicumque veniali peccat de<lb ed="#B"/>meretur 
-          <unclear>s?us</unclear> simul potest aliquis mereri vitam aeternam 
-          <lb ed="#B"/>et peccare venialis <unclear>ergo</unclear> ideo dic quod sic ad argumentum 
-          <lb ed="#B"/>in oppositum dico quod mereri et demereri <unclear>i?a</unclear> e eiusdem 
-          <lb ed="#B"/>primi sunt opposita aliter non ergo conclusio vera
+          <pc type="#pilcrow"/>ad oppositum qui meretur 
+          <lb ed="#P"/>vitam aeternam meretur et quicumque venialiter 
+          <lb ed="#P"/>peccat demeretur <sic>set</sic> simul potest aliquis 
+          <lb ed="#P"/>mereri vitam aeternam et peccare venialis 
+          <lb ed="#P"/>ergo etc <pc type="#pilcrow"/>Ideo dic quod sic ad argumentum in 
+          <lb ed="#P"/>oppositum dico quod mereri et demereri <unclear>ie?a</unclear> eiusdem 
+          <lb ed="#P"/>primi sunt opposita aliter non <pc type="#punctus"/>
         </p>
       </div>
     </body>

@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Quaestio 31 [Balliol 246 Transcription]</title>
+        <title>Quaestio 35 [Pembroke 236 Transcription]</title>
         <author ref="#Holcot">Holcot</author>
         <editor>Jeffrey C. Witt</editor>
         <editor>John Slotemaker</editor>
@@ -10,8 +10,8 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Quaestio 31 [Balliol 246 Transcription]</title>
-          <date when="2018-05-31">May 31, 2018</date>
+          <title>Quaestio 35 [Pembroke 236 Transcription]</title>
+          <date when="2018-07-21">June 21, 2018</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -22,7 +22,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="B" n="balliol246">Balliol 246</witness>
+          <witness xml:id="P" n="pembroke236">Pembroke 236</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -36,7 +36,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2018-05-31" who="#JW" status="draft" n="0.0.0">
+        <change when="2018-07-21" who="#JW" status="draft" n="0.0.0">
           <p>Created file for the first time.</p>
         </change>
       </listChange>
@@ -46,31 +46,34 @@
     <front>
       
       <div xml:id="starts-on">
-        <pb ed="#B" n="210-v"/><cb ed="#B" n="a"/>
+        <pb ed="#P" n="156-v"/><cb ed="#P" n="b"/>
       </div>
     </front>
     <body>
-      <div xml:id="rhq-q31">
-        <head xml:id="rhq-q31-Hd1e4126">Quaestio 31 [Balliol 246 Transcription]</head>
-        <head xml:id="rhq-q31-Hd1e4129" type="question-title">Utrum gratuite diligens deum plus se possit pro eadem mensura mereri et demereri</head>
-        <p xml:id="rhq-q31-d1e4132">
-          <lb ed="#B"/>Utrum gratuite 
-          <lb ed="#B"/>diligens deum plus se possit 
-          <lb ed="#B"/>pro eadem mensura mereri et 
-          <lb ed="#B"/>demereri
+      <div xml:id="rhq-q35">
+        <head xml:id="rhq-q35-Hd1e4126">Quaestio 35 [Pembroke 236 Transcription]</head>
+        <head xml:id="rhq-q35-Hd1e4129" type="question-title">
+          Utrum respectu dilectionis gratuitae caritas habeat efficaciam in mente.
+        </head>
+        <p xml:id="rhq-q35-d1e4132">
+          <lb ed="#P"/>Utrum respectu dilectionis gratuitae caritas 
+          <lb ed="#P"/>habeat efficientiam in mente
         </p>
-        <p xml:id="rhq-q31-d1e4143">
-          quod non arguitur sic quia 
-          <lb ed="#B"/>opposita non sunt eidem ergo
+        <p xml:id="rhq-q35-d1e4141">
+          <pc type="#pilcrow"/>quod non quia habet 
+          <lb ed="#P"/>dilectionem dei naturalem et post infundit 
+          <lb ed="#P"/>deus gratiam vel caritatem tunc illa est meri<lb ed="#P"/>toria 
+          et gratuita et causalitas nihil egit gratia
         </p>
-        <p xml:id="rhq-q31-d1e4148">
-          ad 
-          <lb ed="#B"/>oppositum arguitur sic quia qui meretur vitam aeternam 
-          <lb ed="#B"/>meretur et quicumque veniali peccat de<lb ed="#B"/>meretur 
-          <unclear>s?us</unclear> simul potest aliquis mereri vitam aeternam 
-          <lb ed="#B"/>et peccare venialis <unclear>ergo</unclear> ideo dic quod sic ad argumentum 
-          <lb ed="#B"/>in oppositum dico quod mereri et demereri <unclear>i?a</unclear> e eiusdem 
-          <lb ed="#B"/>primi sunt opposita aliter non ergo conclusio vera
+        <p xml:id="rhq-q35-d1e4152">
+          <lb ed="#P"/><pc type="#pilcrow"/>ad oppositum tunc habens caritatem et non habens 
+          <lb ed="#P"/>possent aequaliter reprimere illecebras
+        </p>
+        <p xml:id="rhq-q35-d1e4160">
+          <lb ed="#P"/><pc type="#pilcrow"/>ad quaestionem dico quod non <pc type="#punctus"/> ad Rationem concedo conclusionem licet 
+          <lb ed="#P"/>non aequae meritorie nec doctorum dicunt quod 
+          <lb ed="#P"/>causalitas efficit volitionem sed facit bonam 
+          esse bonam
         </p>
       </div>
     </body>
